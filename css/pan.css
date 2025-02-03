@@ -1,0 +1,1379 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body 
+{
+  line-height: 1;
+  text-align: center;
+  font-family: verdana,arial,helvetica,clean,sans-serif;
+  font-size: 69%
+}
+ol, ul {
+	list-style: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* http://matthewjamestaylor.com/blog/perfect-3-column.htm */
+body, div#appbody {background: url(../css/images/Website_SubPage_Background_Sports.png);background-size: cover;background-attachment: fixed;}
+#appbody {width: 1193px;margin: auto;}
+#appbody #hd {background-color: #aaaaaa;height: 90px;}
+#appbody #bd {margin-bottom: 0px; margin-top: 0px; text-align: left;background: #fff;}
+#appbody #bd #otherBd {padding: 2px;background-color: white;border: 1px solid gray;}
+#appbody #left {float:left; width:145px; padding:5px 5px 5px 0; }
+#appbody #center {float:left; padding:5px 5px 5px 0;}
+#appbody #rightTop {float:left; width:265px; position: relative;}
+#appbody #right {float:left; width:265px; padding:5px 0 5px 0;}
+.betSlipFloat {position:fixed; top:0px;}
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; } /* slightly enhanced, universal clearfix hack */
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/ * html .clearfix { height: 1%; }
+.clearfix { display: block; } /* close commented backslash hack */
+#appbody #ft {clear:both;float:left;width:100%;}
+
+#appbody #hd table#headerTable td#headerrow1 {background-image: url(images/header.jpg);width: 1280px;height: 65px;}
+#appbody #hd table#headerTable td#headerrow1 #headerlayout {width:100%;}
+#appbody #hd table#headerTable td#headerrow1 #headerlayout tr.layouttop { height:5px;}
+#appbody #hd table#headerTable td#headerrow1 #headerlayout tr.layoutmiddle { height:20px;}
+#appbody #hd table#headerTable td#headerrow1 #headerlayout tr.layoutbottom { height:35px;}
+#appbody #hd table#headerTable td#headerrow1 #headerlayout td.layoutleft {width: 720px;}
+#appbody #hd table#headerTable td#headerrow1 #headerlayout td.inputtd {padding:0px; text-align: center; vertical-align:bottom; color:White;}
+#appbody #hd table#headerTable td#headerrow1 #headerlayout input.logininput { height: 17px; margin:0px; padding: 0px; width: 94px; background-color:Black; border: solid 1px #999999; color: White;}
+
+#appbody #ft .footerMenuCtn {text-align: left; color: #777777; text-decoration: none;}
+#appbody #ft .clear {clear:both;}
+#appbody #ft .footerMenu {float:left; width: 200px;}
+#appbody #ft #twoColumn {width:370px;}
+#appbody #ft h3 { height: 2em; font-weight: bold; font-size:109%;margin: 0.5em 0; color: #777777; text-decoration: none; }
+#appbody #ft .footerMenu li {display: block;float: left;font-size: 93%;margin: 0 0 0.5em;padding: 0 1em 0 0;text-align: left;width: 90%;}
+
+#appbody #ft #twoColumn li {width: 43%;}
+#appbody #ft a {color: #981C1F;}
+#appbody #ft a, #appbody #ft a:link, #appbody #ft a:visited, #appbody #ft a:hover, #appbody #ft a:active{text-decoration: underline;}#nav {background-color: white;padding: 2px 0 1px 4px;position:relative;}
+#nav .btn li {text-align: center;padding: 0 2px 2px 2px;}
+#nav .btn li a, #nav .btn li a:visited, #nav .btn li a:active {/*background: transparent url(images/bg-button-sprite2.gif) repeat-x scroll left top;*/background: #4B4B4B; border-radius: 4px; font-weight: bold;text-decoration: none;color: #FFFFFF;}
+#nav .btn li a#tutVidId{/*background-image: url(images/live-betting.gif) !important;*/background: #EE3536; border-radius: 4px; height: 10px;font-weight: bold;text-decoration: none;color: #FFFFFF;}
+#nav .btn li a.tutVidIdBlackJack{/*background-image: url(images/live-betting.gif) !important;*/background: #1eae00; border-radius: 4px; height: 10px;font-weight: bold;text-decoration: none;color: #FFFFFF;}
+#nav .btn li a.tutVidIdEsports{/*background-image: url(images/live-betting.gif) !important;*/background: #003b4d; border-radius: 4px; height: 10px;font-weight: bold;text-decoration: none;color: #FFFFFF;cursor: pointer;}
+#nav .btn li a.tutVidIdRaceBook{/*background-image: url(images/live-betting.gif) !important;*/background: #2d2e2c; border-radius: 4px; height: 10px;font-weight: bold;text-decoration: none;color: #FFFFFF;}
+#nav .btn li a#betBoostId{background-image: url(images/betboost.png) !important;height: 10px;font-weight: bold;text-decoration: none;color: #FFFFFF;}
+#nav .btn li a {display: block;padding: 1em 0.2em;}
+#nav .btn li a.selected { background-position: left -100px; color: White; }
+/*#nav h2 {background: gray none repeat scroll 0 0;cursor: default;display: block;font-size: 90%;margin: 0 0 1px 2px;padding: 6px 4px 6px 4px;text-align: left;width: auto;color: white;} -- in dynamic.css */
+#nav div.topNav {margin: 1px 0 1px 2px;background-color: #CCCCCC;padding: 4px;font-weight: bold;font-size: 100%;}
+
+#nav div.ulHeader,div.topNav {margin: 1px 0 1px 2px;background-color: #ccc;padding: 4px;font-weight: bold;font-size: 100%;}
+#nav div.ulHeader a,div.topNav a {display: block;text-decoration: none;color: black;width: auto;line-height: 15px;}
+div.topNav a.collapsed {background: #ccc url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px;}
+#nav div.ulHeaderGP a.collapsed {background: #ccc url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px;}
+#nav div.ulHeaderFS a.collapsed {background: #ccc url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px;}
+#nav div.ulHeaderMS a.collapsed {background: #ccc url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px;}
+#nav div.ulHeaderPP a.collapsed {background: #ccc /*url(images/ico-toggle-btn-sprite.gif)*/ no-repeat scroll 1px -47px;background-position: 98% -48px;}
+#nav div.ulHeaderOS a.collapsed {background: #ccc url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px;}
+#nav div.ulHeaderC a.collapsed {background: #ccc url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px;}
+#nav div.ulHeaderFP a.collapsed {background: #ccc url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px;}
+#nav div.ulHeader a.collapsed {background: #ccc url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px;}
+#nav div.ulHeaderGP a.collapsed:hover,div.topNav a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeaderFS a.collapsed:hover,div.topNav a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeaderMS a.collapsed:hover,div.topNav a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeaderPP a.collapsed:hover,div.topNav a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeaderOS a.collapsed:hover,div.topNav a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeaderC a.collapsed:hover,div.topNav a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeaderFP a.collapsed:hover,div.topNav a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeader a.collapsed:hover,div.topNav a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeaderGP a.expanded,div.topNav a.expanded, #nav div.topNav a.expanded:hover {padding-right:15px; background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px; background-position: 1px -98px; background-position: 98% -198px; color: White; font-size: 90%;}
+#nav div.ulHeaderFS a.expanded,div.topNav a.expanded, #nav div.topNav a.expanded:hover {padding-right:15px; background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px; background-position: 1px -98px; background-position: 98% -198px; color: White; font-size: 90%;}
+#nav div.ulHeaderMS a.expanded,div.topNav a.expanded, #nav div.topNav a.expanded:hover {padding-right:15px; background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px; background-position: 1px -98px; background-position: 98% -198px; color: White; font-size: 90%;}
+#nav div.ulHeaderPP a.expanded,div.topNav a.expanded, #nav div.topNav a.expanded:hover {padding-right:15px; background: #ee3536 /*url(images/ico-toggle-btn-sprite.gif)*/ no-repeat scroll 1px -47px; background-position: 1px -98px; background-position: 98% -198px; color: White; font-size: 90%;}
+#nav div.ulHeaderOS a.expanded,div.topNav a.expanded, #nav div.topNav a.expanded:hover {padding-right:15px; background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px; background-position: 1px -98px; background-position: 98% -198px; color: White; font-size: 90%;}
+#nav div.ulHeaderC a.expanded,div.topNav a.expanded, #nav div.topNav a.expanded:hover {padding-right:15px; background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px; background-position: 1px -98px; background-position: 98% -198px; color: White; font-size: 90%;}
+#nav div.ulHeaderFP a.expanded,div.topNav a.expanded, #nav div.topNav a.expanded:hover {padding-right:15px; background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px; background-position: 1px -98px; background-position: 98% -198px; color: White; font-size: 80%;}
+#nav div.ulHeader a.expanded,div.topNav a.expanded, #nav div.topNav a.expanded:hover {padding-right:15px; background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px; background-position: 1px -98px; background-position: 98% -198px; color: White; font-size: 90%;}
+#nav div.ul {margin: 1px 0 1px 2px;background-color: #eee;padding: 4px;font-weight: normal;font-size: 100%; height:22px;}
+#nav div.ul a {text-decoration: none;color: black; cursor:pointer;}
+#nav div.ul a:hover {color:Blue}
+#nav div.ul a.selected {color:Red}
+
+#nav div.topNav {margin: 1px 0 1px 2px;background-color: #E7E7E7;padding: 4px;font-weight: bold;font-size: 100%;}
+#nav div.topNav a {display: block;text-decoration: none;color: #EE3536;width: auto;line-height: 15px;cursor: pointer;}
+#nav div.topNav a.collapsed {background: #E7E7E7 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 100% -48px;}
+#Top.collapsed{padding-right: 15px; background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px; color: White; font-size: 90%;}
+#TogOther.subNav.subtNavTogOther.expanded{font-size: 92.9%;}
+#Top.expanded {padding-right: 15px; background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 1px -98px; background-position: 98% -198px; color: White; font-size: 90%;}
+#Other.collapsed{padding-right: 15px; background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px; color: White; font-size: 90%;}
+#Other.expanded {padding-right: 15px; background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 1px -98px; background-position: 98% -198px; color: White; font-size: 90%;}
+#nav div.topNav a.noSubSport {color:Gray; background:none!important}
+#nav div.topNav a.collapsed:hover {}
+#nav div.topNav a.expanded, #nav div.topNav a.expanded:hover {background: #ccc url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 1px -98px;background-position: 98% -198px;}
+#Toptodaygames.collapsed{padding-right: 15px; background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px; color: White; font-size: 90%;}
+
+#nav div.ulHeaderGP {margin: 1px 0 1px 2px;background-color: #4b4b4b; padding: 4px;font-weight: bold;font-size: 100%; color: White; text-align:center;}
+#nav div.ulHeaderFS {margin: 1px 0 1px 2px;background-color: #4b4b4b; padding: 4px;font-weight: bold;font-size: 100%; color: White; text-align:center;}
+#nav div.ulHeaderMS {margin: 1px 0 1px 2px;background-color: #4b4b4b; padding: 4px;font-weight: bold;font-size: 100%; color: White; text-align:center;}
+#nav div.ulHeaderPP {margin: 1px 0 1px 2px;background-color: #4b4b4b; padding: 4px;font-weight: bold;font-size: 100%; color: White; text-align:center;}
+#nav div.ulHeaderOS {margin: 1px 0 1px 2px;background-color: #4b4b4b; padding: 4px;font-weight: bold;font-size: 100%; color: White; text-align:center;}
+#nav div.ulHeaderC {margin: 1px 0 1px 2px;background-color: #4b4b4b; padding: 4px;font-weight: bold;font-size: 100%; color: White; text-align:center;}
+#nav div.ulHeaderFP {margin: 1px 0 1px 2px;background-color: #4b4b4b; padding: 4px;font-weight: bold;font-size: 100%; color: White; text-align:center;}
+#nav div.ulHeader {margin: 1px 0 1px 2px;background-color: #4b4b4b; padding: 4px;font-weight: bold;font-size: 100%; color: White; text-align:center;}
+#nav div.ulHeaderGP a {display: block;text-decoration: none;color: black;width: auto;line-height: 15px;}
+#nav div.ulHeaderFS a {display: block;text-decoration: none;color: black;width: auto;line-height: 15px;}
+#nav div.ulHeaderMS a {display: block;text-decoration: none;color: black;width: auto;line-height: 15px;}
+#nav div.ulHeaderPP a {display: block;text-decoration: none;color: black;width: auto;line-height: 15px; cursor: pointer;}
+#nav div.ulHeaderOS a {display: block;text-decoration: none;color: black;width: auto;line-height: 15px;}
+#nav div.ulHeaderC a {display: block;text-decoration: none;color: black;width: auto;line-height: 15px;}
+#nav div.ulHeaderFP a {display: block;text-decoration: none;color: black;width: auto;line-height: 15px;}
+#nav div.ulHeader a {display: block;text-decoration: none;color: black;width: auto;line-height: 15px;}
+
+#nav div.ulHeaderGP a.collapsed {padding-right:15px; color: White; Background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px; font-size: 90%;}
+#nav div.ulHeaderFS a.collapsed {padding-right:15px; color: White; Background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px; font-size: 90%;}
+#nav div.ulHeaderMS a.collapsed {padding-right:15px; color: White; Background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px; font-size: 90%;}
+#nav div.ulHeaderPP a.collapsed {padding-right:15px; color: White; Background: #ee3536 /*url(images/ico-toggle-btn-sprite.gif)*/ no-repeat scroll 1px -47px;background-position: 98% -48px; font-size: 90%;}
+#nav div.ulHeaderOS a.collapsed {padding-right:15px; color: White; Background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px; font-size: 90%;}
+#nav div.ulHeaderC a.collapsed {padding-right:15px; color: White; Background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px; font-size: 90%;}
+#nav div.ulHeaderFP a.collapsed {padding-right:15px; color: White; Background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px; font-size: 80%;}
+#nav div.ulHeader a.collapsed {padding-right:15px; color: White; Background: #ee3536 url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 98% -48px; font-size: 90%;}
+#nav div.ulHeaderGP a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeaderFS a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeaderMS a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeaderPP a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeaderOS a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeaderC a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeaderFP a.collapsed:hover {background-position: 98% -148px;}
+#nav div.ulHeader a.collapsed:hover {background-position: 98% -148px;}
+#nav div.topNav a.expanded, #nav div.topNav a.expanded:hover {background: #CCCCCC url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;background-position: 1px -98px;background-position: 98% -198px; font-size: 100%;}
+#nav div.subNav {margin: 1px 0 1px 2px;background-color: #EEEEEE;padding: 4px;font-weight: normal;font-size: 100%; height:22px;}
+
+#nav div.subNav {margin: 1px 0 1px 2px;background-color: #eee;padding: 4px;font-weight: normal;font-size: 100%; height:22px;}
+#nav div.subNav div.name {float: left; width: 90px; padding-top: 3px;}
+#nav div.subNav div.name a {text-decoration: none;color: black;cursor: pointer;}
+#nav div.subNav div.name a:hover {color:Blue}
+#nav div.subNav div.name a.selected {color:Red}
+
+#nav div.subNav div.ckbxWrapper {float:right; }
+#nav div.subNav div.ckbxWrapper2 {float:right; width:17px; height:21px; }
+#nav div.subNav div.slctCont {float:right;}
+#nav div.subNav div.slctCont div.sexy {width: 56px;}
+#nav div.subNav div.slctCont div.sexy input {width: 39px;}
+#nav div.subNav div.slctCont div.sexy div.icon {left: 39px;}
+#nav div.subNav div.slctCont div.sexy div.list-wrapper {width: 54px;}
+/*for IE*/
+#nav div.subNav div.slctCont div.sexy a,#nav div.subNav div.slctCont div.sexy a:visited,#nav div.subNav div.slctCont div.sexy a:active {width: 56px;}
+#nav div.subNav div.slctCont div.sexy input.empty {color: gray;}
+#nav div.subNav div.slctCont a.to-highlight:hover {background-color: rgb(223, 232, 246);}
+#nav div.dynNav {overflow-x:hidden;overflow-y:auto !important;overflow-y:scroll;height: auto; position: relative;max-height:770px}
+
+#nav div.contestTopNav {margin: 1px 0 1px 2px;background-color: #CCCCCC;padding: 4px;font-weight: bold;font-size: 100%;}
+#nav div.contestTopNav a {display: block;text-decoration: none;color: black;width: auto;line-height: 15px; background-color: #CCCCCC}
+#nav div.contestTopNav a:hover {color: blue;}
+#nav div.contestTopNav a.selected {color: red;}
+
+#nav ul.dyn {margin: -2px 0 2px 2px;padding: 2px 0 0;}
+#nav ul.dyn li{margin-left: 1em;text-align: left;margin: 0;padding-bottom: 2px;padding-right: 0px;}
+#nav ul.dyn li a{background: #CCCCCC none no-repeat scroll left top;color:Black;font-weight:bold;display: block;margin: 0px;padding: 4px 2px 4px 5px;text-decoration: none;width: auto;height: auto;}
+
+#nav.helpmenu h2 {margin-right: 2px;}
+#nav.helpmenu ul.dyn {margin-right: 2px;}
+
+#nav .disabled a{color:Gray;cursor:default; text-decoration:none;}
+#nav .disabled a:hover{color:Gray}
+
+div.playblackjacksports 
+{
+    background-image: url(images/play-blackjack-sports.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    height: 120px;
+    margin: 0px;
+    padding: 10px 0px 0px;
+    padding-top: 10px;
+    width: 138px;
+    z-index: 25;
+}
+#contentArea #contentHeader {height: 30px;}
+#contentArea #contentHeader .contentHeaderBgL, #contentArea #contentHeader .contentHeaderBg, #contentArea #contentHeader .contentHeaderBgR {background: #2D2E2C;float: left;height: 30px;}
+#contentArea #contentHeader .contentHeaderBgL {background-position: -1020px top;padding: 0;width: 10px;border-top-left-radius: 4px;}
+#contentArea #contentHeader .contentHeaderBg {width: 749px;}
+#contentArea #contentHeader .contentHeaderBgR {background-position: -1030px top;padding: 0;width: 10px;border-top-right-radius: 4px;}
+#contentArea #contentHeader .contentHeaderBg h1 {color: white;font-size: 120%;}
+#contentArea #contentBody {border-left: 1px solid #E7E7E7;border-right: 1px solid #E7E7E7;background-color: #FFFFFF;/*padding: 2px;*/ height:auto !important; height:200px; min-height: 200px; width:767px;}
+#contentArea #contentFooter {height: 8px;}
+#contentArea #contentFooter .contentFooterBgL, #contentArea #contentFooter .contentFooterBg, #contentArea #contentFooter .contentFooterBgR {background: #EE3536;float: left;height: 8px;}
+#contentArea #contentFooter .contentFooterBgL {background-position: 0 -102px !important;background-position: 0 -97px;width: 10px;border-bottom-left-radius: 10px;}
+#contentArea #contentFooter .contentFooterBg {background-position: 0 -20px;width: 749px;}
+#contentArea #contentFooter .contentFooterBgR {background-position: -11px -102px !important;background-position: -11px -97px;width: 10px;border-bottom-right-radius: 10px;}
+#contentArea #contentHeader .contentHeaderBg div.contentTitleTd {vertical-align:middle; padding: 8px 4px 0 0; font-size:12px; color:#e7E7E7; font-weight:bold; float:left; }
+#contentArea #contentHeader .contentHeaderBg div.searchBoxTd { width:55px; padding: 4px 4px 4px 4px; float:left; }
+#contentArea #contentHeader .contentHeaderBg div.searchBoxTd input { width:55px; height:14px;  }
+#contentArea #contentHeader .contentHeaderBg div.searchBtnTd { width:60px; padding: 4px 4px 4px 4px; float:left;  }
+#contentArea #contentHeader .contentHeaderBg div.searchBtnTd button {  background:#EE3536;  color:#fff;  border: 0; height:20px; cursor:pointer;}
+#contentArea #contentHeader .contentHeaderBg div.lineSortingDropDownTd { width:140px; padding: none; float:left;  }
+#contentArea #contentHeader .contentHeaderBg div.oddsFormatDropDownTd { width: 140px; padding: none; float: left; }
+#contentArea #contentHeader .contentHeaderBg div.jclock {color:#e7E7E7; width:285px; float:right; position:relative; top:8px; }
+#contentArea .helptitle { text-align: left; vertical-align: middle; color: White; font-weight: bold; height:30px;  }
+#contentArea #NGBPFooter {height: auto !important; text-align:justify; background-color: white; padding: 0px 2px; width:763px; } 
+#contentArea #NGBPFooter h1 { font-size: 2em !important; text-align: center; }
+#contentBody div.info {width: 16px;height: 16px;background: transparent url(images/info.png) no-repeat;}
+#contentBody div.info span {display:none;}
+#contentBody table.sportsPeriod {width: 100%;}
+#contentBody table.sportsPeriod tbody tr {height: 24px;}
+#contentBody table.sportsPeriod tbody tr td.sportsPeriodTdCol1 {padding-left: 10px;text-align: left;width: 180px;color: #2D2E2C;font-weight: bold;font-size: 100%;}
+#contentBody table.sportsPeriod tbody tr td.sportsPeriodTdCol2 {vertical-align:top; padding-top:3px; }
+#contentBody table.sportsPeriod tbody tr td.sportsPeriodTdCol2 div.combo {text-align: left;}
+#contentBody table.sportsPeriod tbody tr td.sportsPeriodTdCol3 {width: 150px;padding-right: 10px;}
+#contentBody table.sportsPeriod tbody tr td.sportsPeriodTdColSpecial {padding-left: 10px;text-align: left;width: 100%;color: #2D2E2C;font-weight: bold;font-size: 100%;}
+#contentBody table.league {width: 100%;}
+#contentBody table.league .bdt {/*border-top: 1px solid white;*/}
+#contentBody table.league .bdr {border-right: 1px solid white;}
+#contentBody table.league .bdl {/*border-left: 1px solid white;*/}
+#contentBody table.league .bdb {border-bottom: 1px solid white;}
+#contentBody table.league .bdevtt {border-top: 1px solid #E7E7E7;}
+#contentBody table.league .bdmktt {border-top: 1px solid #E7E7E7;}
+#contentBody table.league .firstline .bdevtt {border-top: 1px solid #777777;}
+#contentBody table.league .otherline .bdevtt {border-top: 1px solid #E7E7E7;}
+#contentBody table.league .firstline .bdevtt2 {border-top: 1px solid #777777; border-left: 1px solid #E7E7E7;}
+#contentBody table.league .otherline .bdevtt2 {border-top: 1px solid #E7E7E7; border-left: 1px solid #E7E7E7;}
+#contentBody table.league .firstline .bdevtt2 input { margin-left:2px;}
+#contentBody table.league .otherline .bdevtt2 input {margin-left:2px;}
+#contentBody table.league .eventseparator {border-top: 1px solid #777777; height: 1px;}
+#contentBody table.league thead tr th.col_league {width: 30px;padding-left: 10px;}
+#contentBody table.league thead tr th.col_rot {width: 25px;}
+#contentBody table.league thead tr th.col_team {width: 175px;text-align:left;}
+#contentBody table.league thead tr th.col_team2 {width: 395px;}
+#contentBody table.league thead tr th.col_odds {width: 50px; text-align: center;}
+#contentBody table.league thead tr th.col_filler {width: 205px;}
+#contentBody table.league thead tr th.col_spread {text-align: center;}
+#contentBody table.league thead tr th.col_money_line {text-align: center;}
+#contentBody table.league thead tr th.col_total_points {text-align: center;}
+#contentBody table.league thead tr th.col_team_points {text-align: center;}
+#contentBody table.league thead tr th.col_add_mrkt {text-align: center; width: 22px;}
+#contentBody table.league tbody.date tr td {height: 20px;padding-left: 10px; color: White;font-weight: bold;line-height: 20px;background:Black; text-align:center;}
+#contentBody table.league tbody.cntstNm tr td {height: 20px;padding-left: 10px;color: black;font-weight: bold;line-height: 20px;background-color: #EEEEEE;}
+#contentBody table.league tbody.cntstNm .bdt {border-top: 1px solid #777777; }
+#contentBody table.league tbody.event tr.addMkt td {padding: 1px; height: 0px;}
+#contentBody table.league tbody.event tr.addMkt td.col_rotno { text-align:center; }
+#contentBody table.league tbody.event tr td {padding: 0 2px 0 2px; vertical-align: middle;}
+#contentBody table.league tbody.event tr td div#heightSetter {height: 22px; vertical-align: middle;}
+#contentBody table.league tbody.event tr td.col_rotno {width: 30px; text-align: center;}
+#contentBody table.league tbody.event tr td.col_teamname {width: 160px;}
+#contentBody table.league tbody.event tr td.checkboxes {width:14px; padding: 0; vertical-align: middle;}
+#contentBody table.league tbody.event tr td.checkboxes input {margin: 0;}
+#contentBody table.league tbody.event tr td.mktdesc {width:20px; padding: 0px;}
+#contentBody table.league tbody.event tr td.info {width:20px; padding: 0; vertical-align:middle;}
+#contentBody table.league tbody.event tr td.unit {width:80px; padding: 0; vertical-align:middle;}
+#contentBody table.league tbody.event tr td.addMktIcn {padding: 0px; margin: 0px;}
+#contentBody table.league tbody.event tr td.hdcp {width: 43px; white-space: nowrap; text-align: center;}
+#contentBody table.league tbody.event tr td.smlhdcp {width: 20px;  text-align: center;}
+#contentBody table.league tbody.event tr td.odds {width: 40px; text-align: center;}
+#contentBody table.league tbody.event tr td.addMktIcn { vertical-align: middle; height:22px; width:22px;}
+#contentBody table.league tbody.event tr td.addMktIcn div.collapsed {background: transparent url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 0 -48px;line-height: 14px;display: block;width:14px;height:14px; margin:auto;}
+#contentBody table.league tbody.event tr td.addMktIcn div.expanded {background: transparent url(images/ico-toggle-btn-sprite.gif) no-repeat scroll 0 -100px;line-height: 14px;display: block;width:14px;height:14px; margin:auto;}
+#contentBody table.league tbody.event tr td.addMktIcn div.propMkt {cursor:pointer;}
+#contentBody table.league tbody.event tr td.moneylineodds {width: 76px}
+#contentBody table.contest .firstline .bdevtt {border-top: 1px solid #BBBBBB;}
+#contentBody table.league tbody.propHead tr td.col_league {width: 30px;background-color: #981C1F;padding-left: 10px;}
+#contentBody table.league tbody.propHead tr td.col_rot {width: 31px; text-align:center;}
+#contentBody table.league tbody.propHead tr td.col_team {}
+#contentBody table.league tbody.propHead tr td.col_team2 {width: 395px;}
+#contentBody table.league tbody.propHead tr td.col_odds {width: 50px; text-align: center;}
+#contentBody table.league tbody.propHead tr td.col_filler {width: 205px;}
+#contentBody table.league tbody.propHead tr td.col_spread {text-align: center;}
+#contentBody table.league tbody.propHead tr td.col_money_line {width: 85px;text-align: center;}
+#contentBody table.league tbody.propHead tr td.col_total_points {text-align: center;}
+#contentBody table.league tbody.propHead tr td.col_team_points {text-align: center;}
+#contentBody table.league tbody.propHead tr td.col_add_mrkt {text-align: center; width: 14px;}
+#contentBody table.league tbody.propHead tr td.forceheight {height: 22px;}
+#contentBody table.contestName {}
+#tooltip .body .detWrapper {width: 250px;text-align: left;}
+#tooltip .body .detWrapper .detHeader {border-bottom: 1px solid red;padding-bottom: 5px;font-weight: bold;line-height: 14px;}
+#tooltip .body .detWrapper .detBody {padding-top: 5px;}
+#contentBody #noeventmsg {padding-top:25px;}
+.unauthorized table.league tbody.event tr td.checkboxes input { display: none; }
+#contentBody td.delta {background-color: Yellow;}
+#maxSeq { display: none; }
+ï»¿#contentToolbar {text-align: right;position: relative;}
+#toolbar {z-index: 100;position: absolute;width: 120px; right:1px; top:2px;}
+#toolbar .bg,#toolbar .bgL,#toolbar .bgR{height:23px;background-color:transparent;background-image:url("images/bg-hd-gradient-sprite.gif");}
+#toolbar .bgL {background-position: left -87px;left: 0;padding: 0;position: absolute;width: 9px;}
+#toolbar .bg {background-position: left -57px;float: left;left: 9px;padding: 0;position: relative;width: 99px;/*width: 90%;*/}
+#toolbar .bgR {background-position: -11px -87px;right: 0;padding: 0;position: absolute;width: 12px;}
+#toolbar table {background-color: transparent;border-collapse: collapse;}
+#toolbar tr {height:22px;}
+#toolbar td {border: none;text-align: center;padding: 1 3px;}
+#toolbar .show{border-left: 1px solid white;border-right: 1px solid white;}
+#toolbar .highlight{background: url("images/bg-hd-gradient-sprite.png") repeat scroll 0 0 transparent;}
+/* #toolbar .show{border-left: 1px solid white;border-right: 1px solid white;} */
+#toolbar div.refresh {background: url(images/refresh_3.png) no-repeat; display:block; width: 16px; height: 16px; cursor:pointer; display: none;}
+#toolbar div.refreshloading {background: url(images/ajax-loader.gif) no-repeat; display:block; width: 16px; height: 16px; cursor:pointer; display: none;}
+#toolbar a {text-decoration: none;line-height:12px;}
+#toolbar a:visited {color: #FFFFFF;}
+#toolbar a:link {color: #FFFFFF;}
+/* #toolbar a:hover {color: #CCCCCC;} */
+#toolbar a.selected, #toolbar a:visited.selected {font-weight: normal;}
+.hide {display: none;}
+#toolbar div.unselect {background: #FFFFFF url(images/checkbox-sprite.png) no-repeat scroll 0px 0px;width: 13px;height: 13px;}
+#toolbar div.selected {background: #FFFFFF url(images/checkbox-sprite.png) no-repeat scroll 0px -13px;width: 13px;height: 13px;}
+#toolbar .noofsel {width: 16px;height: 13px;border: 1px solid gray;background-color: white;display: none;}
+#toolbar div.toolbarDiv {text-align:left;}
+#toolbar table.toolbarTable tbody tr td.refreshTd {width: 20px;text-align: left;padding-left: 0;}
+/* #toolbar table.toolbarTable tbody tr td.straighttd {width: 50px;}
+#toolbar table.toolbarTable tbody tr td.parlaytd {width: 39px;}
+#toolbar table.toolbarTable tbody tr td.roundRobintd {width: 79px;}
+#toolbar table.toolbarTable tbody tr td.ifBettd {width: 35px;}
+#toolbar table.toolbarTable tbody tr td.reversetd {width: 100px;}
+#toolbar table.toolbarTable tbody tr td.teasertd {width: 43px;} */
+#toolbar table.toolbarTable tbody tr td.straighttd {width: 25%; height: 35px; font-size: 85%; vertical-align:middle; border:1px solid white;}
+#toolbar table.toolbarTable tbody tr td.parlaytd {width: 25%; height: 35px; font-size: 85%; vertical-align:middle; border:1px solid white;}
+#toolbar table.toolbarTable tbody tr td.roundRobintd {width: 25%; height: 35px; font-size: 85%; vertical-align:middle; border:1px solid white; display:none;}
+#toolbar table.toolbarTable tbody tr td.ifBettd {width: 25%; height: 35px; font-size: 85%; vertical-align:middle; border:1px solid white;}
+#toolbar table.toolbarTable tbody tr td.reversetd {width: 25%; height: 35px; font-size: 85%; vertical-align:middle; border:1px solid white; display:none;}
+#toolbar table.toolbarTable tbody tr td.teasertd {width: 25%; height: 35px; font-size: 85%; vertical-align:middle; border:1px solid white;}
+#toolbar table.toolbarTable tbody tr td.ticketTd {width: 164px;}
+#toolbar table.toolbarTable tbody tr td.noofselTd {width: 18px; vertical-align:middle;}
+ï»¿#maxicon {border:1px solid white;height:8px;margin-top:2px;width:8px;}
+#betslipJQoteDiv {display:none;}
+#betslipDiv {width:100%;}
+#betslipDiv .cross { background-image: url(images/cross.gif); display:block; height:16px; width:16px; font-size:16px; line-height:16px;cursor:pointer;}
+#betslipDiv .slip_down { background-image: url(images/slip_down.gif); display:block; height:16px; width:16px; font-size:16px; line-height:16px;cursor:pointer;}
+#betslipDiv .slip_up { background-image: url(images/slip_up.gif); display:block; height:16px !important; height:15px; width:16px; font-size:16px; line-height:16px !important;line-height:15px;cursor:pointer;}
+#betslipDiv .bdr { border-right: 1px solid #FFFFFF; }
+#betslipDiv .bdb { border-bottom: 1px solid #CCCCCC; }
+#betslipDiv .stack { float:left;}
+#betslipDiv .stackpad {}
+#betslipDiv .error { background-image: url(images/ico-form-btn-sprite-bg-white.gif); display:block; height:16px; width:16px; background-position: left -50px; cursor: pointer;}
+#betslipDiv .msgerror { background-image: url(images/ico-form-btn-sprite-bg-white.gif);height:16px; width:16px; background-position: left -50px;}
+#betslipDiv .errorGray { background-image: url(images/ico-form-btn-sprite-bg-gray.gif); }
+#betslipDiv .error span { display:none;}
+#betslipDiv .tckterrormsgs { color:Red; margin-bottom:5px; }
+#betslipDiv .totalamt { color:Blue; text-align: left; margin-bottom:5px; }
+#betslipDiv .wgrGrpCross { background-image: url(images/ico-form-btn-sprite-bg-white.gif); display:block; height:16px; width:16px; background-position: left -700px; cursor: pointer;}
+#betslipDiv .wgrGrpCrossGray { background-image: url(images/ico-form-btn-sprite-bg-gray.gif); }
+#betslipDiv table.betslip td { vertical-align:middle; }
+#betslipDiv table.betslip {border-collapse:collapse;width: 100%;}
+#betslipDiv table.betslip thead tr th.col_no {width:15px;;}
+#betslipDiv table.betslip thead tr th.col_event {width:270px;}
+#betslipDiv table.betslip thead tr th.col_market {width:15px;;}
+#betslipDiv table.betslip thead tr th.col_selection {width:188px;}
+#betslipDiv table.betslip thead tr th.col_odds {width:90px; text-align: center;}
+#betslipDiv table.betslip thead tr th.col_wager_amt {}
+#betslipDiv table.betslip thead tr th.col_move {width:90px; text-align: center;}
+#betslipDiv table.betslip tbody tr.cplx td.smplheadTd {border-top: 1px solid white;}
+#betslipDiv table.betslip tbody tr.smplhead td.smplheadTd {border-top: none;}
+/* #betslipDiv table.betslip tbody tr.cplx td.smplheadTd {}
+#betslipDiv table.betslip tbody tr.smplhead td.smplheadTd {} */
+#betslipDiv table.betslip tbody tr.nbl td {background-color: #DEDEDE;}
+#betslipDiv table.betslip tbody tr.nbl td.last {background-color: #FFFFFF; font-weight:bold; color:Black;}
+#betslipDiv table.betslip tbody tr.itemlist td {vertical-align:middle;font-size:9px; height:22px;text-align:left;padding:2px;width:21px;}
+#betslipDiv table.betslip tbody tr.itemlist td div.eventstack { padding:2px; text-align:left; font-size:9px;}
+#betslipDiv table.betslip tbody tr.itemlist td input.wageramt { width: 35px; border: 1px solid #999999; font-size:10px;}
+#betslipDiv table.betslip tbody tr.smplhead td.smplheadTd input.wageramt { width: 46px; border: 1px solid #999999; height:15px;font-size:10px;}
+#betslipDiv table.betslip tbody tr.itemlist td input.error { border: 1px solid red; }
+#betslipDiv table.betslip tbody .hide { display: none; }
+#betslipDiv table.betslip tbody tr.itemlist td.col_no { text-align:right; }
+#betslipDiv table.betslip tbody tr.itemlist td.col_wagerselection input.wagerselection { vertical-align:middle;}
+#betslipDiv table.betslip tbody tr.itemlist td.col_wagerselection { font-weight:bold; width:100px;}
+#betslipDiv table.betslip tbody tr.itemlist td.col_wagerselection span.teaserTitle{ float:left;} 
+#betslipDiv table.betslip tbody tr.itemlist td.col_wagerselectionchoice {font-weight:bold; width:165px;padding-left:0;}
+#betslipDiv table.betslip tbody tr td.col_no {width:20px;}
+#betslipDiv table.betslip tbody tr td.hide {display:none;}
+#betslipDiv table.betslip tbody tr td.col_event {width:245px;}
+#betslipDiv table.betslip tbody tr td.col_market {display:none;}
+#betslipDiv table.betslip tbody tr td.col_selection {}
+#betslipDiv table.betslip tbody tr td.col_odds {width:65px;text-align: center;}
+#betslipDiv table.betslip tbody tr td.col_wager_amt {width:180px;}
+#betslipDiv table.betslip tbody tr td.col_error {width:20px;}
+#betslipDiv table.betslip tbody tr td.col_move {width:65px;}
+/* #betslipDiv select { display:block; font-size:10px; height: 20px; width: 165px; } */
+#betslipDiv select { display: block; font-size:9.5px; max-width:98px;}
+#betslipDiv select.wagerselectionchoice {max-width:150px;}
+#betslipDiv select.pchrs {max-width:225px;}
+#betslipDiv div.wagerselectionchoicestack { float: left;}
+#betslipDiv button { border: 1px solid black;cursor: pointer;font-family: Verdana, Arial, helvetica, clean, Sans-Serif;width: 47.3%;background:black url(images/bg-button-sprite.gif) repeat-x scroll left -1px;border-color:black;color:white;font-weight:bold;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;-moz-background-clip:border;font-size: 80%;height: 24px;line-height: normal;padding: 0px; margin: 0 2px 0 0;}
+#betslipDiv button.disabled { cursor: default;background:none;color:white;font-weight:normal;background-color: #4B4B4B;}
+#betslipDiv button#slipSubmit { width: 43%;}
+#betslipDiv button#slipRemoveAll { width: 25%; }
+#betslipDiv button#slipSave { width: 25%; }
+#betslipDiv button:hover { background-position: left -51px; }
+#betslipDiv button.disabled:hover {background-color: #808080;}
+#betslipDiv table.betslipbbar { width: 100%; }
+#betslipDiv table.betslipbbar td {padding: 2px;}
+#betslipDiv table.betslipbbar td.col_1 { width: 100%; text-align:center;}
+#betslipDiv table.betslipbbar td.col_2 { width: 100%;}
+#betslipDiv table.betslipbbar td.col_4 { width: 100%;}
+#betslipDiv table.betslipbbar td.errormsgtd {width: 100%; color:Red;}
+#betslipDiv table.betslipbbar td.freePlay { width: 100%; text-align: left; background-color: #E7E7E7; }
+#betslipDiv .hidden { display:none;}
+#betslipDiv div.info {width: 16px;height: 16px;background: transparent url(images/info.png) no-repeat; float:left;}
+#betslipDiv div.teaserinfo {float:right;}
+#betslipDiv div.line{margin-top:1px;}
+#betslipDiv div.info span {display:none;}
+select {display: none;}
+#appbody .contentWrapper {width: 100%;}
+html { height: 100%; margin-bottom: 1px; }
+.help { background-image: url(images/QuestionMark.svg);display:block; height:16px !important;height:15px; width:16px; font-size:16px; line-height:16px !important;line-height:15px;cursor:pointer;}
+.moveDown { position:relative;top:4px;left:3px;margin-top: 3px;}
+
+
+
+img.header-logo
+{
+	float: left;
+}
+#log-in
+{
+	float: right;
+	margin:0px 1px 0px 0px;	
+	padding: 5px 1px 0px 5px;
+	width: 262px;
+	height: 60px;
+}
+#log-in a
+{
+	color: #fff;
+	text-decoration: none;
+	height: 15px;
+    padding-top:5px;
+	padding-bottom: 5px;
+}
+#log-in .txtBox
+{
+	width: 80px;
+	height: 15px;
+	margin: none;
+	border: none;
+}
+#log-in .txtBox a
+{
+	color: #fff;
+}
+#loginform
+{
+	height: 35px;	
+}
+#loginform label input#username, #loginform label input#password
+{
+	background-color: white;
+	border: 1px solid #E7E7E7 !important;
+    border-top: 2px solid #E7E7E7 !important;
+	padding: 0.2em;
+	font-size: 110%;
+}
+#loginform .button-login
+{
+	background: none repeat scroll 0 0 #870303;
+	border: 0 none;
+	color: #FFFFFF;
+	cursor: pointer;
+	float: none;
+	height: 20px;
+	margin-top: 1px;
+	width: 55px;
+	font-size: 110%;
+}
+ul.site-nav
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 30px;
+    width: 100%;
+}
+.site-nav li
+{
+	list-style: none;
+	text-align: center;
+	background: url(images/nav-up.gif);
+	float: left;
+}
+
+.site-nav li a
+{
+	padding-top: 3px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	height: 18px;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+.site-nav li:hover
+{
+	background: url(images/nav-over.gif) repeat scroll top;
+}
+.button_style
+{
+	background: #870303;
+	color: #fff;
+	border: 0;
+	height: 20px;
+	margin: 0 0 5px 0;
+	cursor: pointer;
+}
+.logout_button_style
+{
+	background: #EE3536;
+    border-radius: 4px;
+	color: #fff;
+	border: 0;
+	height: 20px;
+	position: relative;
+	left: 192px;
+	cursor: pointer;
+}
+.clear
+{
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+span.call-number
+{
+	padding: 2px;
+	color: #FFF;
+	margin-left: 5px;
+	margin-top: 34px;
+	float: left;
+	font-weight: bold;
+}
+#header-nav-tooltip
+{
+	display: none;
+	background-color: #ffa;
+	border: 1px solid #cc9;
+	padding: 3px;
+	font-size: 10px;
+	-moz-box-shadow: 2px 2px 11px #666;
+	-webkit-box-shadow: 2px 2px 11px #666;
+	z-index: 40000;
+}
+.tooltipContainer
+{
+	position: absolute;
+	font: 50%;
+	width: 92%;
+	height: 26px;
+	overflow: hidden;
+	background: transparent url(images/bg-accountWindow-hd-right.gif) no-repeat right top;
+	float: left;
+	margin: 5px 0 0 0;
+	z-index: 200;
+}
+.tooltipHeader
+{
+	float: left;
+	color: White;
+	width: 256px;
+	height: 30px;
+	background: #2D2E2C;
+	cursor: default;
+	right:300px;
+}
+.userName
+{
+	margin: 0.6em 0 0.7em 0;
+	float: left;
+	white-space: nowrap;
+	font-size: 1em;
+	overflow: hidden;
+	text-align: center;
+	width: 120px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.userIdent
+{
+	width: 80px;
+	text-align: right;
+	padding-right: 3px;
+	margin: 0.6em 0 0.7em 0;
+	float: left;
+	white-space: nowrap;
+	font-size: 1em;
+	overflow: hidden;
+}
+a#expColl
+{
+	float: right;
+	margin-right: 0.6em;
+	margin-top: 0.4em;
+	width: 14px;
+	height: 16px;
+	cursor: default;
+}
+div.tooltipContainer span#mailIcon
+{
+	background-image: url(images/ico-message-anim.gif);
+	width: 18px;
+	height: 13px;
+	display: none;
+	float: right;
+	margin: 0.7em 0.4em 0 0;
+}
+.tooltipBody
+{
+	float: left;
+	width: 100%;
+	background: #565656 url(images/bg-accountWindow-bd.gif) repeat-x left bottom;
+	border-left: solid 1px #333;
+	border-right: solid 1px #333;
+}
+dl.userAccount
+{
+	float: left;
+	clear: left;
+	width: 100%;
+	margin-bottom: 0.5em;
+	overflow: hidden;
+}
+dl.userAccount dt
+{
+	clear: left;
+	float: left;
+	width: 45%;
+	margin-left: 1.5em;
+	margin-left: 0.5em;
+	margin-top: 0.25em;
+	margin-bottom: 1px;
+	padding: 0;
+	font-weight: normal;
+	text-align: left;
+}
+
+dl.userAccount dd
+{
+	color: White;
+	clear: right;
+	float: right;
+	width: 40%;
+	margin-top: 0.25em;
+	margin-bottom: 1px;
+	margin-right: 1.25em;
+	margin-right: 0.75em;
+	padding: 0;
+	text-align: right;
+	cursor: default;
+}
+#hdiv a.closed
+{
+	background-image: url(images/ico-toggle-btn-sprite.gif);
+	background-position: 98% -47px;
+}
+
+#hdiv a.opened
+{
+	background-image: url(images/ico-toggle-btn-sprite.gif);
+	background-position: 98% -97px;
+}
+
+#hdiv .tooltipContainer div.btn a
+{
+	list-style: none;
+	float: left;
+	display: block;
+	margin-top: 0.2em;
+	padding-bottom: 0.5em;
+	cursor:pointer;
+}
+
+#hdiv .tooltipContainer .tooltipBody div.btn a, #hdiv .tooltipContainer .tooltipBody div.btn a:link, #hdiv .tooltipContainer .tooltipBody div.btn a:visited, #hdiv .tooltipContainer .tooltipBody div.btn a:hover, #hdiv .tooltipContainer .tooltipBody div.btn a:active
+{
+    width:10em;
+	display: block;
+	margin: 0.5em 0.5em 0.5em 1.6em;
+	padding: 0;
+	height: 2em;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1.9em;
+	background: transparent url(images/bg-button-sprite.gif) repeat-x left top;
+	font-size: 0.9em;
+	cursor:pointer;
+}
+
+#hdiv .tooltipContainer .tooltipBody div.btn a:hover
+{
+	background-position: left -100px;
+}
+
+.subnav_Drop
+{
+	display: none;
+	list-style: none;
+	z-index: 1000;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 115px;	
+}
+.subnav_Drop li a:hover
+{
+	text-decoration: underline;
+}
+.subnav_Drop li
+{
+	background: url("images/nav-up.gif") repeat scroll 0 0;	
+}
+
+.subnav_Drop li:hover
+{
+	background: url(images/nav-over.gif) repeat scroll top;
+}
+
+
+/* from nav.css */
+
+/* Left Nav Menu "Sportsbook" Header */
+#nav h2 {background: gray none repeat scroll 0 0;cursor: default;display: block;font-size: 90%;margin: 0 0 1px 2px;padding: 6px 4px 6px 4px;text-align: left;width: auto;color: white;}
+
+/* from slip.css */
+
+/* Event Header background*/
+#betslipDiv table.betslip thead tr th {height: 12px;background-color: #666666;padding:2px;font-weight:bold;font-size:80%;color:white;text-align:left;line-height:1.2em;}
+/* Bet Type Header */
+/* #betslipDiv table.betslip tbody tr.smplhead td.smplheadTd {height: 22px;background-color: #666666;padding:2px;font-weight:bold;font-size:80%;color:white;text-align:left;line-height:1.2em;border-bottom: 1px solid white;} */
+#betslipDiv table.betslip tbody tr.smplhead td.smplheadTd {height: 22px;background-color: #666666;padding:2px;font-weight:bold;font-size:80%;color:white;text-align:left;line-height:1.2em;}
+
+/**************************************
+Baseball In-Running Scorecard
+**************************************/
+
+#scoreboard-dialog { width:350px; height:108px; }
+#baseball-wrapper { width:350px; height:108px;color:#fff; font-size:9px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-align:center; }
+#baseball-scoreboard { width:350px; height:108px; background-image: url(images/baseball-scoreboard-top.png); background-repeat:repeat-x; background-color:#40403f; margin:0;  padding:0; }
+#baseball-scoreboard-top { width:330px; height:28px; margin:0; padding:0; }
+#baseball-scoreboard-top-clear { width:155px; height:15px; float:left; }
+#baseball-inning { width:120px; height:13px; clear:both; margin-left:186px; background-image:url(images/baseball-inning.gif); background-repeat:repeat-x;}
+#baseball-inning .inning-desc { width:120px; float:left; }
+#baseball-inning .status { width:20px; float:left; }
+#baseball-inning-center { clear:both; width:330px; height:80px; border:1px solid #000; background-color:#1f1f1f; margin:auto;line-height:18px; padding:0; }
+/*#baseball-inning-center .baseball-inning-down { clear:both; width:285px; height:25px; text-align:left; background-image: url(images/baseball-inning-center.gif); background-repeat:repeat-x; padding-left:5px; }*/
+#baseball-inning-center { clear:both; width:320px; height:80px; border:1px solid #000; background-color:#1f1f1f; margin:none;line-height:18px; padding:0; }
+#baseball-scoreboard-down { clear:both; width:350px; height:18px; background-image:url(images/baseball-inning-down.png); background-repeat:repeat-x; margin:0; padding:0; }
+.get-score-button { width:20px; height:20px; margin:auto;cursor:pointer;display:block;text-align:center; }
+
+.game-table { width:320px; height:80px; color:#fff; font-size:10px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-align:center;border-left:1px solid #40403f;}
+.game-table th { float:left; width:15px;height:18px; border-bottom:1px solid #000; border-left:1px solid #40403f; margin:none; font-weight:bolder; font-size:10px; }
+.game-table td { float:left; width:15px;height:18px; border-bottom:1px solid #000; border-left:1px solid #40403f; margin:none; font-size:9px  }
+.game-table .score-table-team-name { float:left; width:120px; text-align:left; padding-left:5px; height:18px;  border-bottom:1px solid #000; }
+
+/* -- balance top -- */
+	.balance_top_wrap 
+	{
+		background: #565656;
+		clear: both; 
+		margin: 0; 
+		overflow: hidden; 
+		border-bottom: 1px solid #fff;
+	}
+
+	#balance_top 
+	{
+		margin: 0 auto 0;
+		width: 750px;
+	}
+
+	#balance_top li 
+	{
+
+		float: left;
+		list-style: none;
+		text-align: center;
+	}
+	#balance_top a span 
+	{
+		display: block;
+		color: #fff; 
+	}
+	#balance_top a 
+	{
+		  color: #fff; 
+			border-left: 1px solid #fff;
+			 padding: 0 1em 0 1em;
+		  	margin: 0;
+		  	text-decoration: none;
+		}
+		
+	#balance_top a:hover{
+			color: red;
+	}
+
+	#balance_top a.first
+	{
+		border: 0;
+	}
+
+	#balance_top a.diabled
+	{
+				  color: #fff; 
+	}
+	
+/**************************************
+Circled Module
+**************************************/	
+
+.redCircle {
+    color: Red;
+    font-weight: 900;
+}
+
+span:hover {    
+    position: relative;
+}
+
+.redCircleDown:hover:after{
+    content: attr(textPopup1);
+    padding: 4px 8px;    
+    position: absolute;
+    left: 0;
+    top: 22px;
+    z-index: 2;   
+    background-color: rgb(238,238,238);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -border-radius: 5px;
+    -moz-box-shadow: 0px 0px 4px #222;
+    -webkit-box-shadow: 0px 0px 4px #222;
+    -box-shadow: 0px 0px 4px #222;
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+    background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+    width: 200px;
+    font-size: 10px;
+    color: #333;    
+}
+.blueCircleDown:hover:after{
+    content: attr(textPopup1);
+    padding: 4px 8px;    
+    position: absolute;
+    left: 0;
+    top: 22px;
+    z-index: 2;   
+    background-color: rgb(238,238,238);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -border-radius: 5px;
+    -moz-box-shadow: 0px 0px 4px #222;
+    -webkit-box-shadow: 0px 0px 4px #222;
+    -box-shadow: 0px 0px 4px #222;
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+    background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+    width: 200px;
+    font-size: 10px;
+    color: #333;    
+}
+
+.redCircleUp:hover:after{
+   content: attr(textPopup);
+    padding: 4px 8px;    
+    position: absolute;
+    left: 0;
+    top: -45px;
+    z-index: 2;   
+    background-color: rgb(238,238,238);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -border-radius: 5px;
+    -moz-box-shadow: 0px 0px 4px #222;
+    -webkit-box-shadow: 0px 0px 4px #222;
+    -box-shadow: 0px 0px 4px #222;
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+    background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+    width: 200px;
+    font-size: 10px;
+    color: #333;   
+} 
+
+.blueCircleUp:hover:after{
+   content: attr(textPopup);
+    padding: 4px 8px;    
+    position: absolute;
+    left: 0;
+    top: -45px;
+    z-index: 2;   
+    background-color: rgb(238,238,238);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -border-radius: 5px;
+    -moz-box-shadow: 0px 0px 4px #222;
+    -webkit-box-shadow: 0px 0px 4px #222;
+    -box-shadow: 0px 0px 4px #222;
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+    background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+    width: 200px;
+    font-size: 10px;
+    color: #333;   
+}    
+   
+
+.blueCircle {
+    color: Blue;
+    font-weight: 900;
+}
+
+/*Start Edit*/
+/*CSS Overide*/
+#header_login_links{height:36px;background:#fff;margin:auto;width:100%;position:relative}
+div#log-in{padding-top:14px;position: relative;width: 315px}
+#log-in form{width:359px;height:25px!important;position:absolute;top:-1px;right:14px}
+.tooltipContainer{margin-top:30px}
+.button-logout{margin-right:45px!important;height:23px}
+#button-login{background:#4B4B4B;border-radius: 4px;height:23px;position:absolute;top:3px;right:-5px;background-repeat:no-repeat;width:52px}
+#click-to-join{display:block;width:99px;height:23px;background:#00Ae04;background-repeat:no-repeat;border-radius:4px;position:absolute;top:3px;right:350px;z-index:2}
+#header_top_links{float:right;padding-top:9px;padding-right:20px}
+#header_top_links a{text-decoration:none;color:#EE3536;font-weight:700;display:inline-block;background-repeat:no-repeat;padding-left:24px;height:22px;line-height:22px}
+#header_top_links a.hl_refer_friend {padding-left: 30px;}
+.hl_casino{background:url(//ui.betonline.ag/img/cashier.png);background-position:1px center}
+.hl_livehelp{background:url(//ui.betonline.ag/img/livehelp.png);background-position:3px center}
+.hl_contact{background:url(//ui.betonline.ag/img/contactus.png);background-position:5px center}
+.hl_refer_friend {background: url(//ui.betonline.ag/img/refer.png);background-position: 5px center;} 
+#header_dl_link{position:absolute;z-index:2;left:970px;top:16px}
+#log-in form input{border:none;line-height:16px;padding:2px 2px 5px;}
+#log-in form label{margin-right: 8px;display:block;float:left;}
+#log-in form .txtBox{height:20px!important;width:137px!important}
+#log-in form .txtBoxUser{height:20px!important;width:145px!important}
+.download_link{color:#2d2e2c;float:left}
+.download_link > strong {color:#EE3536;}
+#download-link-body {   
+    text-decoration: none;    
+}
+p#RemoveForgot {width: 300px !important; margin-right: -39px;}
+.download_link a{position:absolute;top:0px;right:-97px; color: #EE3536;}
+.dl_more_details{background: red; color: #fff !important; width: 8px; height: 8px; border-radius: 14px; text-decoration: none !important; padding: 2px; left: 187px; font-size: 9px;}
+#header_login_form_meta{position:absolute;top:75px;right:131px;z-index:2;color:#4B4B4B;font-family:arial}
+.ie9_login_meta{top:93px!important;right:129px!important}
+#header_login_form_meta a{color:#EE3536;margin-left:68px;text-decoration:none;}
+
+#RememberMe, #checkModalPopup{
+    -webkit-appearance: none;
+    background-color:#fff;
+    border: 1px solid #949393!important;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 5px !important;
+    border-radius: 6px;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    height: 11px;
+}
+
+#RememberMe:active, #RememberMe:checked:active, #checkModalPopup:active, #checkModalPopup:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+#RememberMe:checked, #checkModalPopup:checked {
+	background-color: #fff;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+#RememberMe:checked:after, #checkModalPopup:checked:after {
+	content: '\2714';
+	font-size: 9px;
+	position: absolute;
+	top: -3px;
+	left: 1px;
+	color: #99a1a7;
+}
+
+
+#hdiv {height:126px !important; background:#fff !important}
+#loginform div {margin-top: 3px !important;width: 20px;display: block !important;height: 25px;margin-left: -2px !important;clear: both;overflow: hidden;top: 0px !important;padding:0px !important}
+#log-in div {display:none}
+#bet-logo a img {margin-left:20px;margin-top: 0px;position: relative;}
+#RememberMe {width: 13px;}
+.site-nav li {background:#2D2E2C}
+.site-nav li a  {background: #2D2E2C;background-repeat:no-repeat;background-position:right 0;height: 28px !important;line-height: 28px;margin-top: 0;padding-top: 0}
+.site-nav li.lastnav a {background:none;}
+.sports_loggedin #hdiv {background:none;height: 133px !important;}
+.sports_loggedin div#log-in {padding-top:5px;}
+.sports_loggedin #log-in div {display:block;}
+.sports_loggedin #header_login_form_meta {display:none;}
+.sports_loggedin .tooltipContainer {display:block !important;overflow:hidden !important;width:92%;margin-top: 13px;margin-left: 18px;border-radius: 4px;}
+.sports_loggedin div#log-in {width: 270px;}
+.sports_loggedin #click-to-join {display:none;}
+div#bol-artcle-lines {    
+    background: #fff;
+}
+.payment_logos {
+    width: 100% !important;
+}
+
+.footer-sports-optional {
+    text-align:center;
+    display:block;
+    width:100% !important;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.footerEndContactInfo {
+    width: 100% !important;
+    margin-left:0px !important;
+}
+
+.footerEndLine {
+    width:100% !important;
+}
+.footerMenu {
+    padding: 22px !important;
+}
+/**********DTD-39*******************/
+#balance-float{    
+z-index: 9999;
+}
+
+
+.payment_logos {
+width: 100%;
+margin: auto;
+background: #000;
+}
+
+.footerMenuCtn {
+    display:flex;
+    justify-content:center;
+
+}
+
+
+.footerMenu {
+padding: 0;
+text-align: left;
+float: left;
+padding-left: 1em;
+width: 19%;
+}
+
+
+.footerMenu h3 {
+margin: 0;
+height: 1em;
+padding-bottom: 18px;
+line-height: 9px;
+padding-top: 35px;
+font-family: arial;
+font-size: 12px;
+}
+
+.footerMenu p {
+padding-right: 65px;
+color: #666;
+margin-bottom: 5px;
+font-family: arial;
+}
+
+.footerMenu.Connect li
+{
+margin: 0 0 1em 0;
+}
+.footerMenu.first a {
+color: #CD1F1E;
+text-decoration: none;
+}
+
+.footerMenu li a {
+text-decoration: none;
+color: #666;
+}
+
+.footerMenu ul {
+font-family: arial;
+font-size: 11px;
+line-height: 18px;
+/*list-style: none outside none;
+text-align: left;*/
+}
+
+.upevents {
+padding-right: 50%;
+line-height: 1.5em;
+background: url(//ui.betonline.ag/m/img/content/footer/dotted-line.png);
+background-repeat: no-repeat;
+background-position: 0px bottom;
+padding-bottom: 10px;
+}
+
+.facebook {
+background: url(//ui.betonline.ag/m/img/content/footer/facebook.png);
+display: block;
+background-repeat: no-repeat;
+height: 25px;
+padding-left: 35px;
+line-height: 25px;
+}
+
+
+.twitter {
+background: url(//ui.betonline.ag/m/img/content/footer/twitter.png);
+display: block;
+background-repeat: no-repeat;
+height: 25px;
+padding-left: 35px;
+line-height: 25px;
+}
+
+.google {
+background: url(//ui.betonline.ag/m/img/content/footer/google.png);
+display: block;
+background-repeat: no-repeat;
+height: 25px;
+padding-left: 35px;
+line-height: 25px;
+}
+.rss {
+background: url(//ui.betonline.ag/m/img/content/footer/rss.png);
+display: block;
+background-repeat: no-repeat;
+height: 25px;
+padding-left: 35px;
+line-height: 25px;
+}
+
+.popup_block2 {
+display: none;
+background: #fff;
+padding: 20px;
+border: 20px solid #ddd;
+float: left;
+font-size: 1em;
+position: fixed;
+top: 50%;
+left: 50%;
+z-index: 99999;
+-webkit-box-shadow: 0px 0px 20px #000;
+-moz-box-shadow: 0px 0px 20px #000;
+box-shadow: 0px 0px 20px #000;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+text-align: left;
+}
+a.semantic {
+display: block;
+left: -9000px;
+overflow: hidden;
+position: absolute;
+width: 50px;
+}
+
+/*Quick Deposit styles*/
+#quickDepositCashierForm_popup iframe {background-color: #FFFFFF; }
+#quickDepositCashierForm_popup table {background-color: white; font-size: 93%; line-height: 1.2em; width: 100%; }
+#quickDepositCashierForm_popup table td { text-align:center; border: 1px solid #000000; padding: 0.5em; }
+#quickDepositCashierForm_cancelButton { background-color: #870303 !important;  color:#fff !important; }
+/*Risk Limit*/
+.stLimit
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;  
+}
+/*Join button below betslip */
+
+.joinFromBetSlip
+{
+   float:left;
+   margin-top: 8px;
+   width:100%
+}
+
+.periodMktTitle {padding-left: 10px;text-align: left;width: auto;color: #2D2E2C;font-size: 100%;float: left;}
+.periodMktUn{padding-left: 10px;text-align: left;width: auto;color: #2D2E2C;font-weight: bold;float: left;cursor: pointer;text-decoration: underline;}
+.periodMkt{padding-left: 10px;text-align: left;width: auto;color: #2D2E2C;font-weight: bold;float: left;cursor: pointer;}
+
+/*PA-779
+highlight background
+*/
+.highlightBackground{
+background-color:#00FF00;
+}
+.link-pointer
+{
+cursor:pointer;
+}
+
+.joinBetslip-button {
+    background: #21ae00;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    padding: 22px 0px;
+    font-size: 18px;
+    text-decoration: none;
+    width: 258px;
+}
+
+#cashierFrame {
+    margin:auto;
+    border:0px;
+    min-height:800px;
+    max-height:800px;
+    width:100%;
+    display:block;
+}
+
+.collapsedOut {
+    width:auto !important;
+}
+
+.collapsedIn {
+    width:auto !important;
+}
+#joinBtn {
+   background: #21ae00;
+}
+
+ /* The Modal (background) */
+.DepositBanner-Modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 40px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.0); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.DepositBanner-Modal .qdmodal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.7s;
+    animation-name: animatetop;
+    animation-duration: 0.7s;
+    left: 455px;    
+    height: 150px;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;    
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.DepositBanner-Modal .close {
+    color: #ecbbb;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.DepositBanner-Modal .close:hover,
+.DepositBanner-Modal .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.DepositBanner-Modal .qdmodal-header {
+    padding: 2px 16px;
+    background-color: #ed3637;
+    color: rgb(249, 214, 214);
+    height: 30px;   
+}
+
+.DepositBanner-Modal .qdmodal-body {padding: 10px 16px 0;}
+
+ .DepositBanner-Modal .btn-deposit {
+            padding-top: 10px;
+            color: #FFF;
+            text-decoration: none;
+            display: block;
+            height: 25px;
+            text-transform: uppercase;
+            margin-top: 20px;
+            text-align: center;
+            vertical-align: middle;
+            font-family: verdana,arial,helvetica,clean,sans-serif!important;
+            background: #21ae00;
+            border-radius: 5px;      
+            font-weight: 800;     
+            font-size: 14px;
+            }
+
+ .DepositBanner-Modal a.btn-deposit:hover, .DepositBanner-Modal a.btn-deposit:active {color: white;
+                                            text-decoration: none;
+                                            background-color: #1c9101;
+                                            cursor: pointer;
+ }
+
+#playerPropsFrame {
+    height: 825px;
+    width: 1010px;
+    padding: 5px 5px 5px 0;
+    float: left;
+}
+
+.banner-new-pre {
+	background-image: url(images/redirect-newpre.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	max-width: 100%;
+	height: 106px;
+	display: block;
+}
+
+.banner-new-pre:hover {
+	background-image: url(images/redirect-newpre-hover.png);
+}

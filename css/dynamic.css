@@ -1,0 +1,176 @@
+/* from header.css */
+/* Header backgound image and logo*/
+#hdiv {
+    background: #fff;
+    width: 100%;
+    background: #000 url(../pan/css/images/header-betonline.jpg);
+    height: 90px;
+}
+
+#bet-logo {
+    float: left;
+    height: 64px;
+    width: 265px;
+}
+
+/* from contentBody.css */
+/* Game Period Background */
+#contentBody table.sportsPeriod tbody tr td {
+    background-color: #E7E7E7;
+    vertical-align: middle;
+}
+
+/* Event Table Header  */
+#contentBody table.league thead tr th {
+    color: white;
+    height: 15px;
+    padding: 4px;
+    background-color: #2D2E2C;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+
+/* Date and Time Header */
+#contentBody table.league tbody.date tr td {
+    height: 20px;
+    padding-left: 10px;
+    color: black;
+    font-weight: bold;
+    line-height: 20px;
+    background-color: #E7E7E7;
+}
+
+#contentBody table.league tbody.date.collapsed tr td {
+    background: #DDDDDD url(../pan/css/images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -147px;
+    background-position: 1% -47px;
+    cursor: pointer;
+}
+
+#contentBody table.league tbody.date.collapsed tr td:hover {
+    background: #DDDDDD url(../pan/css/images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -147px;
+    background-position: 1% -147px;
+    cursor: pointer;
+}
+
+#contentBody table.league tbody.date.expanded tr td, #contentBody table.league tbody.date.expanded tr td:hover {
+    background: #E7E7E7 url(../pan/css/images/ico-toggle-btn-sprite.gif) no-repeat scroll 1px -47px;
+    background-position: 1% -197px;
+    cursor: pointer;
+}
+
+#contentBody table.league.contest tbody.date tr td {
+    height: 20px;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    line-height: 20px;
+    background-color: Black;
+}
+
+/* Game Time Column */
+#contentBody table.league tbody.event tr td.col_time {
+    width: 41px;
+    background-color: #E7E7E7;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Propositions Header */
+#contentBody table.league tbody.propHead tr td {
+    color: white;
+    height: 15px;
+    padding: 4px;
+    background-color: #777777;
+    font-weight: bold;
+}
+
+/* from nav.css */
+/* Left Nav Menu "Sportsbook" Header */
+#nav h2 {
+    background: gray none repeat scroll 0 0;
+    cursor: default;
+    display: block;
+    font-size: 90%;
+    margin: 0 0 1px 2px;
+    padding: 6px 4px 6px 4px;
+    text-align: left;
+    width: auto;
+    color: white;
+}
+
+/* from slip.css */
+/* Event Header background*/
+#betslipDiv table.betslip thead tr th {
+    height: 12px;
+    background-color: #666666;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 80%;
+    color: white;
+    text-align: left;
+    line-height: 1.2em;
+}
+
+/* Bet Type Header */
+/* #betslipDiv table.betslip tbody tr.smplhead td.smplheadTd {height: 22px;background-color: #666666;padding:2px;font-weight:bold;font-size:80%;color:white;text-align:left;line-height:1.2em;border-bottom: 1px solid white;} */
+#betslipDiv table.betslip tbody tr.smplhead td.smplheadTd {
+    height: 22px;
+    background-color: #666666;
+    padding: 2px 2px 2px 4px;
+    font-weight: bold;
+    font-size: 80%;
+    color: white;
+    text-align: left;
+    line-height: 1.2em;
+}
+
+#betslipDiv table.betslip tbody tr.smplhead td.smplheadTd span.teaserTitle {
+    float: left;
+}
+
+#betslipDiv table.betslip tbody tr.smplhead td.last {
+    height: 22px;
+    background-color: #FFFFFF;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 80%;
+    color: black;
+    text-align: left;
+    line-height: 1.2em;
+}
+
+/*From jQuery windows-engine.css */
+.window-titleBar {
+    width: 96%;
+    height: 35px;
+    padding: 1.8px;
+    text-indent: 3px;
+    text-align: center;
+    font: bold 13px Arial;
+    background-color: #EE3536;
+    color: #FFFFFF;
+    cursor: move;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /*border-top: 1px solid #AAAAAA; 	border-left: 1px solid #AAAAAA; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA;*/
+}
+
+.window-statusBar {
+    width: 96%;
+    height: 10px;
+    padding: 1.8px;
+    text-indent: 3px;
+    font: bold 13px Arial;
+    background-color: #EE3536;
+    color: #FFFFFF;
+    overflow: hidden;
+    /*border-bottom: 1px solid #AAAAAA; border-left: 1px solid #AAAAAA; border-right: 1px solid #AAAAAA;*/
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-top: 0px;
+}

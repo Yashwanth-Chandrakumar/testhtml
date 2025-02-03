@@ -1,0 +1,163 @@
+/* Styles for the wager reports */
+div.date-range-list {
+    width: 720px;
+    margin-bottom: 15px;
+}
+
+div.wager-report-container {
+    width: 720px;
+    margin-bottom: 1em;
+}
+
+div.wager-report-container h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+div.wager-report-container .date-range-list ul {
+    list-style-type: none;
+    width: 720px;
+    display: block;
+}
+
+div.wager-report-container .date-range-list ul li {
+    width: 120px;
+    float: left;
+    margin: 0px 5px 5px 0px;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+div.wager-report-container .date-range-list input {
+    width: 100px;
+}
+
+div#wager-list-container {
+    border: none;
+    width: 720px;
+    overflow: auto;
+    min-height: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+table.wager-headers {
+    margin-bottom: 0;
+    border: 1px solid white;
+    border-collapse: separate;
+    *border-collapse: collapse;
+    border-top: none;
+    border-bottom: none;
+    width: 720px;
+}
+
+table.wager-headers td,table.wager-record thead td {
+    background-color: #ddd;
+    padding: .5em;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 1px solid white;
+}
+
+table.wager-headers td:first-child,table.wager-record thead td:first-child {
+    border-left: none;
+}
+
+table.wager-record {
+    height: 14px;
+    border-collapse: separate;
+    *border-collapse: collapse;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 720px;
+}
+
+table.wager-record td {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+div.wager-report-submit {
+    margin-top: 20px;
+    border: 1px solid #525352;
+    margin: auto;
+    cursor: pointer;
+    display: block;
+    width: 100px;
+    color: Black;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    margin-left: 10px;
+}
+
+div.wager-detail-container {
+    width: 715px;
+    display: none;
+    background: #C2C1C1;
+}
+
+div.ticket-wager-detail {
+    width: 715px;
+    height: auto;
+    border: 1px solid #525352;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+div.ticket-wager-detail h2 {
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+div.ticket-wager-detail dl {
+    display: block;
+    min-height: 1%;
+    overflow: hidden;
+    padding: 0 10 15 0;
+    font-size: 10px;
+    text-align: left;
+}
+
+div.ticket-wager-detail dt {
+    float: left;
+    clear: left;
+    padding-bottom: 5px;
+    width: 20%;
+    font-weight: normal;
+    height: 13px;
+    text-align: left;
+}
+
+div.ticket-wager-detail dd {
+    float: left;
+    width: 70%;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+div.wager_detail_desc {
+    margin: 1em;
+    padding: 0;
+}
+
+div.wager_detail_desc dl {
+    clear: both;
+    border: 1px solid black;
+    padding-top: 10px;
+}

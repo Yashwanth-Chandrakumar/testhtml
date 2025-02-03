@@ -1,0 +1,45 @@
+/*************************** SWITCHING FEATURE *******************/
+.snackbar {
+    background: url(//ui.betonline.eu/images/snackbar/snackbar_background.svg);
+    height: 43px;
+    top: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    position: fixed
+}
+
+.snackbar img.snackbar-newImg {
+    margin-right: 10px;
+    padding-top: 3px;
+}
+
+.snackbar .snackbar-link {
+    color: white;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.snackbar .snackbar-link img.snackbar-link__img {
+    margin-left: 10px;
+}
+
+.snackbar-wrapper {
+    display: none;
+    width: 100%;
+    height: 43px;
+}
+
+#sportsbookBody .snackbar {
+    z-index: 999;
+}
+
+#sportsbookBody .snackbar .snackbar-link {
+    font-size: 0.9rem;
+}
+
+/*************************** SWITCHING FEATURE *******************/

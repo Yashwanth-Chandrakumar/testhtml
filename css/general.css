@@ -1,0 +1,102 @@
+.sportHead {
+    position: relative;
+    margin: 4px;
+    padding: 4px;
+    padding-left: 4px;
+    cursor: pointer;
+    background-color: #EE3536;
+    font-weight: bold;
+    font-size: 11px;
+    color: #fff;
+    width: 243px;
+    left: -3px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+.leagueHead {
+    position: relative;
+    cursor: pointer;
+    padding: 4px;
+    padding-left: 4px;
+    font-weight: bold;
+    background-color: lightgray;
+    width: 244px;
+    top: -1px;
+}
+
+.gameFlags {
+    position: absolute;
+    height: 15px;
+    top: 3px;
+    right: 4px;
+    left: 3px;
+}
+
+.gameActive {
+    position: relative;
+    color: #000000;
+    background-color: #00CC00;
+    background-color: #fff;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.inProg {
+    font-style: italic;
+}
+
+.miniLiveBettingStyle {
+    position: absolute;
+    top: 774px;
+    left: 1280px;
+    /*background-color: white;*/
+    width: 255px;
+    height: 353px;
+}
+
+.scrollOuter {
+    position: absolute;
+    top: 24px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+#active {
+    overflow: auto;
+    width: 255px;
+    height: 286px;
+}
+
+.leagueName {
+    padding: 0;
+    top: -1px;
+}
+
+a.title {
+    text-decoration: none;
+}
+
+span.gameTitle {
+    font-size: 11px;
+    color: #000;
+    margin-left: 14px;
+    margin-right: 62px;
+    width: 21em;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+.gvGameListContainer li.over {
+    background-color: #777777;
+}
+
+.noGames {
+    display: block;
+    width: 238px;
+    height: 50%;
+    margin: 32px auto;
+}

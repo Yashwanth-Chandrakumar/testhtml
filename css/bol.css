@@ -1,0 +1,4311 @@
+#ft {
+    margin-top: 2em;
+    padding: 0 0 1em;
+}
+#ft .footerMenuCtn {
+    margin: 1em auto;
+    overflow: hidden;
+    padding: 0.5em 0;
+    width: 100%;
+}
+#ft p.copyright {
+    margin-top: 2em;
+    text-align: center;
+}
+.footerMenu {
+    float: left;
+    padding-left: 1em;
+    width: 19%;
+}
+#twoColumn {
+    width: 38%;
+}
+.footerMenu h3 {
+    height: 2em;
+}
+.footerMenu li {
+    display: block;
+    float: left;
+    font-size: 93%;
+    list-style: none outside none;
+    margin: 0 0 0.5em;
+    padding: 0 1em 0 0;
+    text-align: left;
+    width: 90%;
+}
+.footerMenu a {
+    color: #888888;
+}
+.footerMenu a:visited {
+    color: #888888;
+}
+.footerMenu a:active {
+    color: #888888;
+}
+#twoColumn li {
+    width: 42%;
+}
+#ft a:link {
+    color: #333333;
+}
+#ft a:visited {
+    color: #666666;
+}
+#ft a:hover {
+    color: black;
+}
+#ft a:active {
+    color: #666666;
+}
+#ft .links li, #ft .text {
+    text-align: center;
+}
+#ft .links .main a {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#ft .links span {
+    padding: 0 0.5em;
+}
+#bd #homePage h1 {
+    left: -9000px;
+    overflow: hidden;
+    position: absolute;
+}
+#bd div.mainColl {
+    clear: left;
+    float: left;
+    max-width: 66.6%;
+    width: 67%;
+}
+#bd div.coll {
+    float: right;
+    width: 33%;
+}
+.mainColl .x2first {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 49.5%;
+}
+.mainColl .x2 {
+    float: left;
+    margin-left: 0.75%;
+    width: 49.5%;
+}
+#bd div.media {
+    clear: both;
+    float: left;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+#bd div.mediaWide {
+    clear: both;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+#bd div.content {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#bd .detailMaster .content, .sportsBook #sportsBook .content {
+}
+#bd #casino div.content, #bd #sportsBetting div.content {
+background: black;
+}
+div.nav {
+    /*background: none repeat scroll 0 0 white;*/
+    /*border: 1px solid #999999;*/
+    clear: left;
+    float: left;
+    margin-right: 0.8%;
+    padding: 0.25em 0.25em 0.1em;
+    width: 14.75%;
+}
+#bd .mainContent {
+    float: left;
+    width: 83.5%;
+}
+#bd .mainContent2 {
+    float: left;
+    width: 100%;
+}
+.iframeContainer iframe {
+    height: 500px;
+    min-height: 500px;
+}
+div.mainColl div.nav {
+    width: 22.25%;
+}
+#bd .mainColl .mainContent {
+    min-width: 75.75%;
+    width: 75.75%;
+}
+div.staticPage, div.formPage, div.errorPage {
+    background: none repeat scroll 0 0 transparent;
+    padding: 0;
+}
+#sportsBetting .mainContent div.mainColl {
+    max-width: 60.25%;
+    width: 61%;
+}
+#sportsBetting .mainContent div.coll {
+    width: 39.3%;
+}
+#bd div.centralColl {
+    float: left;
+    max-width: 60.25%;
+    width: 61%;
+}
+#bd .centralColl div.mainColl {
+    max-width: 100%;
+    width: 100%;
+}
+#sportsBetting .mainContent .articleFullView div.mainColl {
+    max-width: 60.25%;
+    width: 61%;
+}
+#sportsBetting .mainContent .articleFullView div.coll {
+    width: 39.3%;
+}
+div.nav ul {
+    margin: -2px 0 0;
+    padding: 2px 0 0;
+	background: none repeat scroll 0 0 white;
+}
+div.nav ul li {
+    list-style: none outside none;
+    margin: 0;
+    padding-bottom: 2px;
+    padding-right: 0;
+}
+div.nav ul li a {
+    display: block;
+    margin: 0;
+    outline: medium none;
+    padding: 2px 2px 2px 5px;
+    text-decoration: none;
+    width: auto;
+}
+div.nav ul ul {
+    margin: 0;
+    padding: 0;
+}
+div.nav li li {
+    background: none repeat scroll 0 0 #E7E7E7;
+    margin-top: 1px;
+}
+div.nav li li a {
+    padding-left: 10px;
+}
+div.nav ul.btn li a {
+    padding: 0.7em 0.2em;
+}
+div.nav h2 {
+    background: none repeat scroll 0 0 gray;
+    cursor: default;
+    display: block;
+    font-size: 0.9em;
+    margin: 0 0 2px;
+    padding: 0.7em 0.5em;
+    text-align: left;
+    width: auto;
+}
+div.nav .dyn a {
+    background: none no-repeat scroll left top gray;
+    color: black;
+    font-weight: bold;
+}
+div.nav fieldset {
+    background-color: #CCCCCC;
+    display: block;
+    margin-bottom: 2px;
+    padding: 0 0 0 7%;
+    position: relative;
+}
+div.nav button.submit {
+    display: block;
+    font-size: 0.9em;
+    height: auto;
+    margin: 0.7em 0;
+    padding: 0.6em 0.45em;
+    width: auto;
+}
+div.nav ul.selection ul li input {
+    background: none repeat scroll 0 0 transparent;
+    display: inline-block;
+    margin: 0.4em 0.25em 0.4em 0.4em;
+    vertical-align: top;
+}
+div.nav ul.selection ul li span, div.nav ul.selection ul li label {
+    cursor: default;
+    display: inline-block;
+    margin: 0.4em 0 0.4em 0.4em;
+    width: 10em;
+}
+div.nav ul.selection ul li.first {
+    font-style: italic;
+    height: 1.9em;
+}
+div.nav ul.selection ul li.first input, div.nav ul.selection ul li.first span, div.nav ul.selection ul li.first label {
+    float: right;
+    text-align: right;
+}
+div.nav button.submit span {
+    background: url("../img/bt-nav-submit.gif") no-repeat scroll right center transparent;
+    padding-right: 11px;
+    white-space: nowrap;
+}
+div.nav .dyn a {
+    background: none no-repeat scroll left top #CCCCCC;
+    color: black;
+    font-weight: bold;
+}
+div.nav ul.dyn li a {
+    height: auto;
+}
+div.nav ul.makeLink li a.linkItem {
+    display: inline-block;
+    padding-bottom: 0.23em;
+    padding-top: 0.275em;
+    width: 82%;
+}
+div.nav ul.makeLink li span span {
+    display: block;
+    height: 14px;
+    padding: 0.3em 2px 0.165em;
+    width: 14px;
+}
+ul.makeLink li span.expCollPos {
+    display: inline-block;
+    vertical-align: bottom;
+}
+div.nav .dyn span.collapsed, div.nav .dyn a.collapsed, div.nav .dyn span.expanded, div.nav .dyn a.expanded {
+    cursor: pointer;
+}
+div#feedRotator {
+    background-image: url("../img/bg-mediaArea-rotator.gif");
+    height: 342px;
+}
+#feedRotator div.main {
+    float: left;
+    padding-top: 1em;
+    width: 62%;
+}
+#feedRotator .main div {
+    display: none;
+    height: 321px;
+    left: 10px;
+    position: absolute;
+    width: 403px;
+    z-index: 0;
+}
+#feedRotator div#pv1 {
+    display: block;
+}
+#feedRotator div.main h2 {
+    margin-left: 0.7em;
+    margin-top: 1em;
+}
+#feedRotator div.main p {
+    margin: 0 1em;
+}
+#feedRotator .main div img {
+    border-color: #981C1F;
+    border-width: 0;
+    display: block;
+    height: 191px;
+    margin-bottom: 1em;
+    width: 403px;
+}
+#feedRotator ul.preview img {
+    height: 48px;
+    width: 48px;
+}
+#feedRotator div.list {
+    float: left;
+    height: 322px;
+    margin: 0 0 0 1px;
+    padding: 1em 0 0;
+    width: 35.9%;
+}
+#feedRotator ul.preview {
+    background-color: white;
+    float: left;
+    height: auto;
+    left: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 10;
+}
+#feedRotator ul.preview li {
+    border-left: 1px solid #999999;
+    clear: left;
+    display: block;
+    float: left;
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#feedRotator ul.preview li a {
+    background-position: left -1px;
+    border-top: 1px solid #999999;
+    width: 227px;
+}
+#feedRotator ul.preview li a, #feedRotator ul.preview li a:hover, #feedRotator ul.preview li a big, #feedRotator ul.preview li a span, #feedRotator ul.preview li a span:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+#feedRotator ul.preview li#th1 a {
+    background-position: left top;
+    border-top-width: 0;
+}
+#feedRotator ul.preview li a img {
+    padding: 7px 7px 8px;
+}
+#feedRotator ul.preview li a big {
+    font-size: 100%;
+    margin-top: 0.75em;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 72%;
+}
+#feedRotator ul.preview li a span {
+    float: left;
+    font-family: Arial;
+    width: 72%;
+}
+#feedRotator ul.preview li a:hover {
+    background: none repeat scroll 0 0 #EEEEEE;
+    color: black;
+}
+#feedRotator ul.preview li.on {
+    border-left-width: 0;
+    margin-left: -17px;
+}
+#feedRotator ul.preview li.on a, #feedRotator ul.preview li.on a:hover {
+    margin-left: 18px;
+}
+#feedRotator ul.preview li.on, #feedRotator ul.preview li.on a, #feedRotator ul.preview li.on a:hover big, #feedRotator ul.preview li.on a:hover span, #feedRotator ul.preview li.on a:hover {
+    background: none no-repeat scroll left top #981C1F;
+    color: white;
+}
+#feedRotator .list ul li.on {
+    background-position: left 1px;
+}
+#feedRotator .list ul li.on a, #feedRotator .list ul li.on a:hover {
+    background-position: -20px 1px;
+}
+#feedRotator .list ul li#th1.on {
+    background-position: left top;
+}
+#feedRotator .list ul li#th1.on a, #feedRotator .list ul li#th1.on a:hover {
+    background-position: -20px top;
+}
+#feedRotator .main a {
+    text-decoration: none;
+}
+#feedRotator .main h2 a:visited {
+    color: #981C1F;
+}
+#feedRotator .main h2 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+#feedRotator .main a.more {
+    text-decoration: underline;
+}
+#feedRotator .main div h1, #feedRotator .main div h2 {
+    color: #981C1F;
+}
+#feedRotator .main p, #feedRotator ul.preview li a:link, #feedRotator ul.preview li a:visited {
+    color: #333333;
+}
+#feedRotator ul.preview li a:hover {
+    background-image: url("../img/bg-feedRotator-tab-hover.gif");
+    color: black;
+}
+#feedRotator ul.preview li a:hover big, #feedRotator ul.preview li a:hover span.more {
+    color: black;
+    text-decoration: none;
+}
+#feedRotator ul.preview li.on, #feedRotator ul.preview li.on a, #feedRotator ul.preview li.on a:link, #feedRotator ul.preview li.on a:visited, #feedRotator ul.preview li.on a:hover, #feedRotator ul.preview li.on a:active {
+    background-color: transparent;
+    background-image: url("../img/bg-feedRotator-tab-active.png");
+    color: white;
+}
+#feedRotator ul.preview li.on a big, #feedRotator ul.preview li.on a:hover big, #feedRotator ul.preview li.on a span, #feedRotator ul.preview li.on a:hover span {
+    background-color: transparent;
+    color: white;
+}
+#horseBetting .bd {
+    padding: 0.25em;
+}
+div.race_wrapper {
+    width: 100%;
+}
+table.horse_numbers {
+    width: 100% !important;
+}
+table.horse_numbers td {
+    border-color: #EEEEEE;
+    border-style: solid;
+    border-width: 0 0 1px;
+    color: black;
+}
+table.horse_numbers th {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color white;
+    border-image: none;
+    border-style: none none none solid;
+    border-width: medium medium medium 1px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+table.horse_numbers th:first-child {
+    border-left: medium none;
+}
+table.horse_numbers th, table.horse_numbers td {
+    text-align: center;
+}
+table.horse_numbers td.name {
+    width: 60%;
+}
+table.horse_numbers td.jockey {
+    width: 25%;
+}
+table.horse_numbers td.odds {
+    width: 15%;
+}
+div.track_header {
+    background-color: #4C4C4C;
+    background-image: url("../img/lines/arrow-black-both.gif");
+    background-position: left 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0.2em 0.2em 0.2em 18px;
+}
+div.track_header_open {
+    background-position: left -18px;
+}
+div.track_header span {
+    margin: 0.1em;
+}
+div.track_header a {
+    text-decoration: none;
+}
+div.track_header span, div.track_header a {
+    color: White;
+    font-weight: bold;
+}
+div.track_wrapper {
+    margin: 0;
+    padding: 0 0 1px;
+    width: 100%;
+}
+div.race_wrapper {
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.boxy-wrapper {
+    position: absolute;
+}
+.boxy-wrapper.fixed {
+    position: fixed;
+}
+.boxy-modal-blackout {
+    background-color: black;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.boxy-wrapper {
+    empty-cells: show;
+}
+.boxy-wrapper .top-left, .boxy-wrapper .top-right, .boxy-wrapper .bottom-right, .boxy-wrapper .bottom-left {
+    height: 10px;
+    padding: 0;
+    width: 10px;
+}
+.boxy-wrapper .top-left {
+    background: url("../img/overlay/boxy-nw.png") repeat scroll 0 0 transparent;
+}
+.boxy-wrapper .top-right {
+    background: url("../img/overlay/boxy-ne.png") repeat scroll 0 0 transparent;
+}
+.boxy-wrapper .bottom-right {
+    background: url("../img/overlay/boxy-se.png") repeat scroll 0 0 transparent;
+}
+.boxy-wrapper .bottom-left {
+    background: url("../img/overlay/boxy-sw.png") repeat scroll 0 0 transparent;
+}
+.boxy-wrapper .top-left {
+}
+.boxy-wrapper .top-right {
+}
+.boxy-wrapper .bottom-right {
+}
+.boxy-wrapper .bottom-left {
+}
+.boxy-wrapper .top, .boxy-wrapper .bottom {
+    background-color: black;
+    height: 10px;
+    opacity: 0.6;
+    padding: 0;
+}
+.boxy-wrapper .left, .boxy-wrapper .right {
+    background-color: black;
+    opacity: 0.6;
+    padding: 0;
+    width: 10px;
+}
+.boxy-wrapper .title-bar {
+    background-color: black;
+    padding: 6px;
+    position: relative;
+}
+.boxy-wrapper .title-bar.dragging {
+    cursor: move;
+}
+.boxy-wrapper .title-bar h2 {
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+.boxy-wrapper .title-bar .close {
+    color: white;
+    font-size: 90%;
+    line-height: 1;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+.boxy-inner {
+    background-color: white;
+    padding: 0;
+}
+.boxy-content {
+    padding: 15px;
+}
+.boxy-wrapper .question {
+    min-height: 80px;
+    width: 350px;
+}
+.boxy-wrapper .answers {
+    text-align: right;
+}
+table.boxy-wrapper {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border-width: 0 !important;
+    width: 50em;
+}
+.boxy-wrapper td {
+    border-width: 0 !important;
+}
+.boxy-wrapper td.boxy-inner {
+    background-color: white !important;
+}
+.boxy-wrapper .top-left, .boxy-wrapper .top-right, .boxy-wrapper .bottom-right, .boxy-wrapper .bottom-left {
+}
+.pager ul.pages {
+    border: medium none;
+    display: block;
+    font-size: 10px;
+    margin: 0;
+    padding: 10px 0 35px;
+    text-transform: uppercase;
+}
+.pager ul.pages li {
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    float: left;
+    list-style: none outside none;
+    margin: 0 0.5em 0 0;
+    padding: 0.5em;
+    text-decoration: none;
+}
+.pager ul.pages li:hover {
+    border-color: #003F7E;
+}
+.pager ul.pages li.pgEmpty, .pager ul.pages li.pgEmpty:hover {
+    border-color: #EEEEEE;
+    color: #EEEEEE;
+    cursor: default;
+}
+.pager ul.pages li.pgCurrent {
+    background-color: #EEEEEE;
+    border-color: #003F7E;
+    color: #000000;
+    font-weight: 700;
+}
+.media div.addBanner {
+    height: 54px;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+#joinNow, #betNow a {
+    cursor: pointer;
+    display: block;
+    height: 54px;
+    width: 100%;
+}
+#joinNow {
+    background: url("../m/img/interface/bg-joinNow-addBanner2.gif") no-repeat scroll left top transparent;
+    float: left;
+    width: 63.5%;
+}
+#betNow a {
+    background: url("../m/img/interface/bg-betNow-addBanner.gif") no-repeat scroll left top transparent;
+    cursor: pointer;
+}
+#joinNow:hover {
+    background-position: left -56px;
+}
+#betNow a:hover {
+    background-position: left -54px;
+}
+#asSeenOn {
+    background: url("../m/img/interface/bg-joinNow-news.gif") no-repeat scroll right top transparent;
+    float: left;
+    margin-right: 0;
+    padding: 9px 0 9px 9px;
+    width: 35.1%;
+}
+#asSeenOn span {
+    display: block;
+    float: left;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 6px;
+    width: 100px;
+}
+#asSeenOn span strong {
+    color: #981C1F;
+    font-style: italic;
+}
+#asSeenOn img {
+    float: left;
+    margin-left: 3px;
+}
+#betNow {
+    background: url("../img/interface/bg-betNow-addBanner.gif") no-repeat scroll left top transparent;
+    float: left;
+    height: 54px;
+    width: 100%;
+}
+#betNow strong, #betNow span {
+    display: block;
+    float: left;
+    width: auto;
+}
+#betNow strong {
+    clear: left;
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 10px 0 13px 24px;
+    width: 38%;
+}
+#betNow span {
+    color: #981C1F;
+    font-size: 155%;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 16px;
+    text-transform: uppercase;
+    width: 50%;
+}
+#betNow span.loggedIn {
+    color: #ED8D11;
+    margin-top: 20px;
+    text-align: center;
+}
+#betNow span.customer {
+    color: #ED8D11;
+    margin-top: 20px;
+    text-align: center;
+}
+dl.basic {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+dl.basic dt {
+    margin-right: 0.25em;
+}
+dl.grid {
+    margin-bottom: 1em;
+}
+dl.grid dt {
+    clear: left;
+    margin-bottom: 0.25em;
+    margin-right: 0.5em;
+    width: 50%;
+}
+dl.grid dd {
+    margin-bottom: 0.25em;
+    width: 49%;
+}
+dl.questionAnswer dt {
+    clear: left;
+    margin-bottom: 0.5em;
+}
+dl.questionAnswer dd {
+    clear: left;
+    margin-bottom: 1em;
+    padding-left: 2em;
+}
+div.hr {
+    border-top: 1px solid #CCCCCC;
+    height: 1em;
+    margin-top: 1em;
+}
+.hr hr {
+    display: none;
+}
+select, input, textarea {
+    border: 1px solid transparent;
+    font-family: verdana,arial,helvetica,clean,sans-serif;
+    line-height: 1.2em;
+    outline: medium none;
+}
+input[type="text"], input[type="password"], textarea {
+    width: 12.25em;
+}
+input {
+    height: 1.2em;
+    padding: 0.2em;
+}
+input.radio, input[type="radio"], input.checkbox, input[type="checkbox"] {
+    background-color: Transparent;
+    margin-right: 0.3em;
+    margin-top: 0.25em;
+    padding: 0;
+    width: auto !important;
+}
+input.radio, input[type="radio"] {
+    border-width: 0 !important;
+}
+input.readonly {
+    background-color: #EFEFEF;
+}
+select {
+    width: auto;
+}
+select option {
+    background-color: white;
+}
+select .first {
+    color: gray;
+    font-style: italic;
+}
+label {
+    color: gray;
+    padding-top: 0.15em;
+    position: relative;
+}
+button, a.btn {
+    background: none no-repeat scroll left top gray;
+}
+a.btn {
+    display: inline-block;
+    min-height: 16px;
+    padding: 0;
+    width: auto;
+}
+button span, a.btn span:not(.icon-thewave) {
+    background: none no-repeat scroll left top transparent;
+    display: block;
+    line-height: 16px;
+    outline: medium none;
+    padding: 0;
+}
+fieldset, div.fieldset {
+    border: 1px solid gray;
+    padding: 1em;
+}
+div.fieldset {
+    clear: both;
+    margin-bottom: 1em;
+}
+fieldset.action, div.fieldset-action {
+    margin-bottom: 2em;
+}
+.action button, .action a.btn {
+}
+fieldset.navBt {
+    padding-left: 0;
+}
+fieldset.navBt .next {
+    float: right;
+}
+fieldset.navBt .previous {
+    float: left;
+}
+fieldset legend {
+    color: gray;
+    font-size: 131%;
+    padding: 0 0.25em;
+}
+p.mandatory {
+    clear: both;
+    margin-bottom: 0;
+    text-align: right;
+}
+.mandatory big {
+    letter-spacing: 0;
+    line-height: 60%;
+    vertical-align: text-bottom;
+}
+ul.fields {
+    margin-left: 0;
+}
+ul.fields li {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+    padding: 0.3em;
+}
+ul.fields li ul, ul.fields li ol {
+    padding-left: 2em;
+}
+ul.fields li li {
+    margin-bottom: 0.2em;
+    padding-top: 0;
+}
+ul.radio, ul.fields li.radio ul, ul.checkbox, ul.fields li.checkbox ul {
+    margin-left: 0;
+}
+ul.radio li, ul.fields li.radio ul li, ul.checkbox li, ul.fields li.checkbox ul li {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0.3em;
+}
+.fields label {
+    display: block;
+    float: left;
+    width: 30%;
+}
+.fields label.mailToFriend {
+    width: 13%;
+}
+.fields li.btnSend {
+    padding-left: 5.5em;
+}
+.fields li.btnSubscribe {
+    padding-left: 8.5em;
+}
+.fields input, .fields textarea {
+    width: auto;
+}
+.fields .wide input, .fields .wide textarea {
+    width: 75%;
+}
+.fields .narrow input {
+    width: 10%;
+}
+.fields .wide textarea {
+    height: 7em;
+}
+.fields select {
+    min-width: 25%;
+    width: 50%;
+}
+.fields select.short {
+    margin-right: 1em;
+    min-width: 4em;
+    width: 5.1em;
+}
+.fields .field-validation-error, .error .field-validation-error, .validation-error .field-validation-error {
+    padding-top: 0.15em;
+}
+.formPage .errors .validation-summary-errors {
+    display: block;
+    margin-left: 0.2em;
+    margin-top: 0.5em;
+}
+.errors .validation-summary-errors {
+    margin-left: 0.2em;
+    margin-top: 0.5em;
+}
+span.validation-summary-errors {
+    display: inline-block;
+}
+.formPage .wide .field-validation-error, .myAccount .wide .field-validation-error {
+    display: block;
+    margin-left: 19%;
+    margin-top: 0.1em;
+}
+.emptyData {
+    margin-bottom: 0.5em;
+    padding: 1em 1em 0.25em;
+}
+div.nav .emptyData {
+    padding-bottom: 1em;
+}
+.emptyData .ico {
+    background: none no-repeat scroll left -400px transparent;
+    float: none;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 20px;
+    width: auto;
+}
+.emptyData p {
+    padding-left: 20px;
+}
+div.errors, div.problem {
+    clear: both;
+    margin-bottom: 0.5em;
+    padding: 1em;
+}
+div.errors {
+    display: none;
+}
+div.errors span, div.errors ul, div.erros ul li {
+    clear: both;
+}
+div.nav div.errors, div.nav div.problem {
+    border-width: 0;
+    padding-bottom: 0;
+}
+div ul.validation-summary-errors {
+    margin: 5px 0 0;
+    padding: 4px 4px 4px 25px;
+}
+.errors .ico, .problem .ico {
+    background: none no-repeat scroll left -50px transparent;
+    float: none;
+    font-weight: bold;
+    margin: 1em 0 0;
+    padding-left: 20px;
+    width: auto;
+}
+.errors p, .problem p {
+    padding-left: 19px;
+    padding-top: 0.5em;
+}
+div.flashAlt {
+    clear: both;
+    display: none;
+}
+.formPage fieldset {
+    clear: both;
+}
+.formPage .fields label {
+    clear: left;
+}
+.formPage ul.fields li ul, .formPage ul.fields li ol {
+    padding-left: 20%;
+}
+.formPage ul.checkbox li, .formPage ul.radio li {
+    padding-left: 20%;
+}
+.formPage ul.checkbox li label, .formPage ul.checkbox li input, .formPage ul.radio li label, .formPage ul.radio li input {
+    clear: none;
+    float: left;
+    width: auto;
+}
+.formPage fieldset.action {
+    padding-left: 21%;
+}
+.myAccount fieldset.action {
+    padding-left: 22%;
+}
+.myAccount fieldset.navBt, .myAccount fieldset.action.navBt {
+    padding-left: 1em;
+}
+fieldset .fields li.action {
+    padding-left: 20.5%;
+}
+a.more {
+    display: inline;
+}
+a.link {
+    background: none no-repeat scroll left top transparent;
+    display: block;
+    min-height: 16px;
+    padding-left: 1em;
+}
+ul.links {
+    margin-bottom: 0.5em;
+    width: 95%;
+}
+ul.links li {
+    list-style: none outside none;
+    margin-left: 0;
+}
+ul.links li a {
+    background: none no-repeat scroll left top transparent;
+    padding-left: 1em;
+}
+a.link:hover, ul.links li a:hover {
+    background-position: left -300px;
+}
+.ico {
+    background: none no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+    padding: 0;
+    position: relative;
+    width: 16px;
+}
+div.ico, span.ico {
+    display: block;
+}
+div.ico span, span.ico span {
+    left: -9000px;
+    position: absolute;
+}
+.add h2, .add h3, .add h4, .add p {
+    margin: 0;
+}
+.add {
+    clear: both;
+    margin-bottom: 0.5em;
+}
+.addLink h3 {
+    margin-bottom: 1em;
+}
+div.media {
+    background: none no-repeat scroll left top transparent;
+    clear: left;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.media .mediaArea {
+    background: none no-repeat scroll left top transparent;
+}
+div#livelines-grid {
+    height: inherit;
+    max-height: 340px;
+    overflow: auto;
+}
+div.feedBox, div.indexBox {
+    float: left;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+div.feedBox div, div.feedBox div fieldset, div.feedBox div fieldset ul li label {
+}
+.feedBox div.hd, .indexBox div.hd {
+    clear: left;
+}
+.feedBox .hd .bg, .feedBox .hd .bgL, .feedBox .hd .bgR, .indexBox .hd .bg, .indexBox .hd .bgL, .indexBox .hd .bgR {
+    background: none no-repeat scroll left top black;
+    height: 30px;
+}
+.feedBox .hd .bgL, .indexBox .hd .bgL {
+    background-position: -1000px top;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    width: 10px;
+}
+.feedBox .hd .bgR, .indexBox .hd .bgR {
+    background-position: -1010px top;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    width: 10px;
+}
+.feedBox #sentConfirmationWindow h2 {
+    margin-bottom: 1em;
+}
+.coll .top .feedBox .hd .bgL, .orphanPageMaster .mainColl .indexBox .hd .bgL, .orphanPageMaster .coll .feedBox .hd .bgL, .formPage .indexBox .hd .bgL, .errorPage .indexBox .hd .bgL, .myAccount .indexBox .hd .bgL, #mySpecs .bgL {
+    background-position: -1020px top;
+}
+.coll .top .feedBox .hd .bgR, .orphanPageMaster .mainColl .indexBox .hd .bgR, .orphanPageMaster .coll .feedBox .hd .bgR, .formPage .indexBox .hd .bgR, .errorPage .indexBox .hd .bgR, .myAccount .indexBox .hd .bgR, #mySpecs .bgR {
+    background-position: -1030px top;
+}
+.feedBox .hd div.bg, .indexBox .hd div.bg {
+    float: left;
+    left: 10px;
+    position: relative;
+    width: 94%;
+}
+.indexBox .hd div.bg {
+    width: 98%;
+}
+.mainColl .indexBox .hd div.bg {
+    width: 96.75%;
+}
+.orphanPageMaster .mainColl .indexBox .hd div.bg {
+    width: 97%;
+}
+.feedBox .hd h1, .feedBox .hd h2, .feedBox .hd h3, .indexBox .hd h1, .indexBox .hd h2, .indexBox .hd h3 {
+    background-color: transparent;
+    color: white;
+    float: left;
+    line-height: 1em;
+    margin: 0;
+    padding: 0.87em 0;
+    width: auto;
+}
+.feedBox .hd h2, .feedBox .hd h3 {
+    font-size: 100%;
+}
+.indexBox .hd h1, .indexBox .hd h2, .indexBox .hd h3 {
+    font-size: 100%;
+}
+.orphanPageMaster .indexBox .hd h1, .formPage .indexBox .hd h1, .myAccount .indexBox .hd h2, .errorPage .indexBox div.bd {
+    margin-left: 1em;
+}
+.feedBox div.bd, .indexBox div.bd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: white;
+    border-color: black;
+    border-image: none;
+    border-right: 1px solid black;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    clear: left;
+    padding: 2px;
+    position: relative;
+}
+.staticPage .indexBox div.bd {
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+.orphanPageMaster .staticPage .indexBox div.bd, .formPage .indexBox div.bd, .myAccount .indexBox div.bd, .errorPage .indexBox div.bd {
+    padding-left: 1.75em;
+    padding-right: 1.75em;
+}
+.feedBox .bd table, .indexBox .bd table {
+    margin: 0;
+}
+div.scrollable {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: black;
+    border-color: white;
+    border-image: none;
+    border-right: 1px solid white;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.veryShortBox {
+    height: 93px;
+}
+.shortBox {
+    height: 159px;
+}
+.mediumBox {
+    height: 340px;
+}
+div.tallBox {
+    height: 440px;
+    padding-right: 0;
+}
+.detailMaster .top .mediumBox {
+    height: 136px;
+}
+.feedBox div.scrollable table {
+    clear: both;
+}
+.feedBox .bd .clear {
+    height: 0;
+}
+#livelines div.bd {
+    clear: both;
+}
+#liveLines .bd fieldset {
+    background-color: #666666;
+    border: 1px solid black;
+    display: block;
+    margin-bottom: 0;
+    padding: 0.25em 0.25em 0.25em 1em;
+    position: relative;
+}
+#liveLines .bd fieldset legend {
+    display: none;
+}
+#liveLines .bd fieldset label {
+    color: white;
+    display: block;
+    float: left;
+}
+#liveLines .bd fieldset select {
+    float: right;
+    height: 1.6em;
+    width: 50%;
+}
+#liveLines table thead th {
+    padding-bottom: 0.15em;
+    padding-top: 0.1em;
+    text-align: center;
+}
+.feedBox ul.ico-group, .indexBox ul.ico-group {
+    margin: 0;
+}
+ul.ico-group li {
+    list-style: none outside none;
+    margin-bottom: 0.05em;
+    margin-left: 0;
+    position: relative;
+}
+ul.ico-group li img {
+    float: left;
+}
+ul.ico-group li h2 {
+    float: left;
+    margin: 0;
+}
+ul.ico-group li p {
+    float: left;
+}
+.feedBox .ico-group li h2 {
+    width: 70%;
+}
+.feedBox .ico-group li h2.ico {
+    width: 65%;
+}
+.feedBox .ico-group li p {
+    width: 70%;
+}
+.indexBox .ico-group li h2 {
+    width: 80%;
+}
+.indexBox .ico-group li h2.ico {
+    width: 77%;
+}
+.indexBox .ico-group li p {
+    width: 80%;
+}
+.feedBox ul.preview, .indexBox ul.preview {
+    margin: 0;
+}
+ul.preview li {
+    clear: both;
+    list-style: none outside none;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    position: relative;
+}
+.futurePropositions ul.preview {
+}
+.futurePropositions ul.preview li {
+    border-top: 1px solid #999999;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.futurePropositions ul.preview li a {
+    margin-top: 0.5em;
+    min-height: 3.8em;
+    padding-bottom: 1em;
+}
+ul.preview li a {
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+ul.preview li a img {
+    border: 0 none;
+    clear: left;
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0 0.5em 0 0;
+}
+ul.preview li a big {
+    color: #981C1F;
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin-top: 0.2em;
+    position: relative;
+    text-decoration: none;
+    width: 5em;
+}
+ul.preview li a span {
+    color: #333333;
+    cursor: text;
+    display: block;
+    float: left;
+    margin-top: 0.4em;
+    width: 70%;
+}
+ul.preview li a:visited big, ul.preview li a:visited span.more {
+    color: #704A52;
+}
+ul.preview li a:hover big, ul.preview li a:hover span.more {
+    color: black;
+    text-decoration: underline;
+}
+ul.preview li a big.icoSport {
+    width: 8em;
+}
+ul.preview li a span.proposition {
+    cursor: pointer;
+    width: 15em;
+}
+ul.preview li a span.more {
+    color: #981C1F;
+    cursor: pointer;
+    display: inline;
+    float: none;
+    text-decoration: underline;
+}
+dl.productDetails dt {
+    font-size: 110%;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+}
+dl.productDetails dd {
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+    padding-top: 0.15em;
+}
+dl.productDetails dd.text {
+    clear: left;
+    padding-left: 1em;
+}
+.line ul.ico-group li h2 {
+    clear: both;
+    float: none;
+    font-size: 109%;
+    width: auto;
+}
+.line ul.ico-group li h2.ico {
+    margin-bottom: 0.2em;
+    margin-top: 0.1em;
+    padding-bottom: 0.42em;
+    padding-top: 0.38em;
+    width: 94.35%;
+}
+.line ul.ico-group li p {
+    background: none repeat scroll 0 0 #B4B4B4;
+    float: none;
+    margin: 0;
+    padding: 0.4em 0;
+    text-indent: 4px;
+    width: 100%;
+}
+.line li dl {
+    clear: both;
+    margin: 0;
+    padding: 0.1em 0;
+    width: 100%;
+}
+.line li dl dt {
+    background: none repeat scroll 0 0 #DDDDDD;
+    clear: left;
+    font-weight: normal;
+    margin-bottom: 1px;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    text-indent: 4px;
+    width: 64%;
+}
+.line li dl dd {
+    background: none repeat scroll 0 0 #CCCCCC;
+    float: right;
+    margin-bottom: 1px;
+    padding-bottom: 0.2em;
+    padding-right: 1%;
+    padding-top: 0.2em;
+    width: 35%;
+}
+dd span.spread, dd span.moneyline {
+    display: block;
+}
+.line dl dt.fav, .line dl dd.fav {
+    font-weight: bold;
+}
+dd span.spread {
+    float: left;
+    width: 60%;
+}
+dd span.moneyline {
+    float: right;
+    width: 30%;
+}
+.line .ico-row span.ico {
+    background: none no-repeat scroll left top green;
+    display: block;
+    height: 12px;
+    line-height: 0.8em;
+    padding: 0 !important;
+    position: relative;
+    text-indent: -9000px;
+    width: 12px;
+}
+.line .ico-row span.baseball {
+    background-position: left -50px;
+}
+.line .ico-row span.basketball {
+    background-position: left -100px;
+}
+.line .ico-row span.entertainment {
+    background-position: left -150px;
+}
+.line .ico-row span.football {
+    background-position: left -200px;
+}
+.line .ico-row span.hockey {
+    background-position: left -250px;
+}
+.line .ico-row span.race, .line .ico-row span.motorsports-info {
+    background-position: left -300px;
+}
+.line .ico-row span.soccer {
+    background-position: left -350px;
+}
+.line .ico-row span.tennis {
+    background-position: left -400px;
+}
+.line .ico-row span.golf {
+    background-position: left -449px;
+}
+.line .ico-row span.tennis {
+    background-position: left -499px;
+}
+.line .ico-row span.golf {
+    background-position: left -449px;
+}
+.line .ico-row span.horse, .line .ico-row span.horse-racing-tips {
+    background-position: left -499px;
+}
+.line .ico-row span.cricket {
+    background-position: left -549px;
+}
+.line .ico-group h2.ico {
+    background: none no-repeat scroll left top green;
+    padding-left: 18px;
+    width: 92%;
+}
+.line .ico-group h2.baseball {
+    background-position: 2px -44px;
+}
+.line .ico-group h2.basketball {
+    background-position: 2px -94px;
+}
+.line .ico-group h2.entertainment {
+    background-position: 2px -144px;
+}
+.line .ico-group h2.football {
+    background-position: 2px -194px;
+}
+.line .ico-group h2.hockey {
+    background-position: 2px -244px;
+}
+.line .ico-group h2.race, .line .ico-group h2.motorsports-info {
+    background-position: 2px -294px;
+}
+.line .ico-group h2.soccer {
+    background-position: 2px -344px;
+}
+.line .ico-group h2.tennis {
+    background-position: 2px -394px;
+}
+.line .ico-group h2.golf {
+    background-position: 2px -449px;
+}
+.line .ico-group h2.horse, .line .ico-group h2.horse-racing-tips {
+    background-position: 2px -499px;
+}
+.line .ico-group h2.cricket {
+    background-position: 2px -549px;
+}
+.article ul.ico-group li {
+    min-height: 48px;
+}
+.article .ico-group li h2 {
+    clear: right;
+    float: right;
+    font-size: 109%;
+}
+.article .ico-group li p {
+    float: right;
+}
+.article .ico-group h2.ico {
+    background: none no-repeat scroll left top green;
+    padding-left: 18px;
+}
+.article .ico-group h2.baseball {
+    background-position: 2px -49px;
+}
+.article .ico-group h2.basketball {
+    background-position: 2px -99px;
+}
+.article .ico-group h2.entertainment {
+    background-position: 2px -149px;
+}
+.article .ico-group h2.football {
+    background-position: 2px -199px;
+}
+.article .ico-group h2.hockey {
+    background-position: 2px -249px;
+}
+.article .ico-group h2.race, .article .ico-group h2.motorsports-info {
+    background-position: 2px -299px;
+}
+.article .ico-group h2.soccer {
+    background-position: 2px -349px;
+}
+.article .ico-group h2.tennis {
+    background-position: 2px -399px;
+}
+.article .ico-group h2.golf {
+    background-position: 2px -449px;
+}
+.article .ico-group h2.horse, .article .ico-group h2.horse-racing-tips {
+    background-position: 2px -499px;
+}
+.article .ico-group h2.cricket {
+    background-position: 2px -549px;
+}
+ul.sportLinks li {
+    list-style: none outside none;
+    margin-left: 0;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+.sportLinks li a.ico {
+    background: url("../img/ico-sports-sprite-bg-white.gif") no-repeat scroll left top transparent;
+    display: block;
+    float: none;
+    list-style: none outside none;
+    min-height: 0;
+    padding-bottom: 0.35em;
+    padding-left: 2em;
+    width: auto;
+}
+.sportLinks li a.baseball {
+    background-position: 2px -49px;
+}
+.sportLinks li a.basketball {
+    background-position: 2px -97px;
+}
+.sportLinks li a.entertainment {
+    background-position: 2px -148px;
+}
+.sportLinks li a.football {
+    background-position: 2px -197px;
+}
+.sportLinks li a.hockey {
+    background-position: 2px -246px;
+}
+.sportLinks li a.race, .sportLinks li a.motorsports-info {
+    background-position: 2px -295px;
+}
+.sportLinks li a.soccer {
+    background-position: 2px -349px;
+}
+.sportLinks li a.tennis {
+    background-position: 2px -393px;
+}
+.sportLinks li a.golf {
+    background-position: 2px -449px;
+}
+.sportLinks li a.horse, .sportLinks li a.horse-racing-tips {
+    background-position: 2px -500px;
+}
+.sportLinks li a.cricket {
+    background-position: 2px -545px;
+}
+.icoSport {
+    min-height: 16px;
+    padding-left: 5px;
+}
+ul.mediaLinks li {
+    background-image: none;
+    list-style: none outside none;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+}
+.mediaLinks li a {
+    background: url("../img/ico-mediaLinks-sprites.gif") no-repeat scroll left top transparent;
+    padding: 0.5em 0 0.5em 2em;
+}
+.mediaLinks li a.facebook {
+    background-position: left -96px;
+}
+.mediaLinks li a.twitter {
+    background-position: left -196px;
+}
+.mediaLinks li a.youtube {
+    background-position: left -296px;
+}
+.mediaLinks li a.flickr {
+    background-position: left -396px;
+}
+#bd .tools a {
+    background: url("../img/ico-article-tools.gif") no-repeat scroll 0 0 transparent;
+}
+#bd .tools a.printer {
+    background-position: 0 -84px;
+    cursor: pointer;
+    padding: 2px 0 2px 20px;
+}
+.staticPage .wcmText {
+    padding-top: 1.5em;
+}
+.blockUI span {
+    background: none no-repeat scroll left center orange;
+    cursor: wait;
+    display: block;
+    font-weight: bold;
+    padding: 0.5em;
+}
+.blockUI span.loading {
+    background-image: url("../img/ajax-loader-orange.gif");
+}
+.blockUI h1 {
+    margin: 0;
+}
+.blockUI .indexBox .hd div.bg {
+    left: 0;
+    width: 100%;
+}
+.blockUI .indexBox .hd h1 {
+    margin-left: 1em;
+}
+div#deposit_cc fieldset.action {
+    margin-bottom: 0;
+}
+span.loading {
+    background-image: url("../img/ajax-loader.gif");
+    background-repeat: no-repeat;
+    display: none;
+    margin: auto 1em;
+    padding: 0.2em 0 0.2em 20px;
+}
+#depositMethods #depositAmountRow .field-validation-error {
+    clear: both;
+    display: block;
+}
+div#deposit_cc_detail {
+    display: none;
+    margin: auto;
+}
+div#deposit_bonus {
+    margin: 1.5em auto;
+}
+div#deposit_finalize div.terms {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+div#deposit_finalize h2 {
+    margin-bottom: 1em;
+}
+div#deposit_finalize dl {
+    margin: 2em auto;
+}
+div#deposit_finalize dt {
+    margin-bottom: 0.5em;
+    width: 25%;
+}
+div#deposit_finalize dd {
+    margin-bottom: 0.5em;
+    width: 70%;
+}
+div#deposit_finalize fieldset.action {
+    height: 2.8em;
+    min-height: 2.8em;
+}
+div#deposit_thanks {
+    height: 350px;
+    min-height: 350px;
+}
+div#overlay_cvv {
+    background-color: white;
+    color: black;
+    margin: 0 1em;
+    padding-top: 1.5em;
+}
+div#overlay_cvv p {
+    margin: 0.5em;
+}
+div#overlay_cvv div.img {
+    margin-top: 2em;
+    text-align: center;
+}
+fieldset.filters {
+    margin-bottom: 1em;
+}
+fieldset.filters select {
+    margin-right: 1em;
+}
+div.wagers_table_wrapper, div.payouts_table_wrapper, div#transactions_list_container, div#trn_table_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+div.message {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.indexBox .bd table {
+}
+.bd div.wagers_table_wrapper table, .bd div#trn_table_wrapper table, .bd div.payouts_table_wrapper table {
+    width: 99.9%;
+}
+.hidden {
+    display: none;
+}
+table.headers, table.footers {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-collapse: separate;
+    border-color: -moz-use-text-color white;
+    border-image: none;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-style: none solid;
+    border-width: medium 1px;
+    margin-bottom: 0;
+}
+table.headers td, table.footers td, table.record thead td {
+    background-color: #DDDDDD;
+    border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color white;
+    border-style: none none none solid;
+    border-width: medium medium medium 1px;
+    color: black;
+    font-weight: bold;
+    padding: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+table.headers td:first-child, table.footers td:first-child, table.record thead td:first-child {
+    border-left: medium none;
+}
+table.record {
+    border: 0 none;
+    border-collapse: separate;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+table.record td {
+    border-color: -moz-use-text-color -moz-use-text-color #EEEEEE;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    text-align: center;
+}
+div.wager_detail, div.lpoints_detail {
+    background-color: #EEEEEE;
+    margin: 0 0 0.2em;
+    width: 100%;
+}
+div.wager_detail h2, div.lpoints_detail h2 {
+    margin: 0 0 1em 0.6em;
+    padding: 1em 0 0;
+}
+div.wager_detail dl, div.lpoints_detail dl {
+    margin-left: 1em;
+}
+div.wager_detail dt, div.wager_detail_desc dt, div.trn_inner dt, div.lpoints_detail dt {
+    margin-bottom: 0.4em;
+    width: 25%;
+}
+div.wager_detail dd, div.wager_detail_desc dd, div.trn_detail dd, div.lpoints_detail dd {
+    margin-bottom: 0.2em;
+    width: 65%;
+}
+div.wager_detail_desc {
+    margin: 1em;
+    padding: 0 0 1px;
+}
+div.wager_detail_desc dl {
+    clear: both;
+}
+div.trn_detail {
+    /*border-bottom: 1em solid #981C1F;
+    border-left: 1em solid #981C1F;*/
+	margin: 0;
+    padding: 0;
+    width: 98.5%;
+}
+div.trn_detail h2 {
+    display: block;
+    margin: 0;
+    padding: 0.5em 1em;
+}
+div.trn_detail dl {
+    margin-bottom: 1em;
+}
+div#trn_table_wrapper div.trn_inner {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+div.order_details_wrapper {
+    padding: 1em;
+}
+div#trn_table_wrapper table.order_details {
+    border: 1px solid #CCCCCC;
+    margin-bottom: 1em;
+}
+table.order_details td, table.order_details th {
+    border: medium none;
+}
+table.order_details th {
+    background-color: #DDDDDD;
+    color: black;
+    text-align: center;
+}
+table.order_details tbody td {
+    background-color: white;
+    border-bottom: 1px solid #EEEEEE;
+    color: black;
+    padding: 0.5em;
+    text-align: center;
+}
+table.order_details tfoot td {
+    background-color: #DDDDDD;
+    font-weight: bold;
+}
+table.order_details td.total {
+    text-align: center;
+}
+div#trn_table_wrapper table.footers {
+    margin-top: 1.5em;
+}
+td.col_points_date {
+    width: 35%;
+}
+td.col_points_activity {
+    width: 20%;
+}
+td.col_points_reason {
+    width: 25%;
+}
+td.col_points_points {
+    width: 20%;
+}
+table.footers td.col_balance_title {
+    text-align: left;
+    width: 87%;
+}
+table.footers td.col_balance_amt {
+    text-align: right;
+    width: 13%;
+}
+.loyalityPoints dl.productDetails dt {
+    width: 21%;
+}
+.loyalityPoints dl.productDetails dd {
+    width: 77%;
+}
+.loyalityPoints dl.productDetails dd.text {
+    width: auto;
+}
+#buyCheckout div.tools {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 30%;
+}
+#buyCheckout .tools a.printer {
+    background: url("../img/ico-article-tools.gif") no-repeat scroll 0 -84px transparent;
+    cursor: pointer;
+    padding: 2px 0 2px 20px;
+}
+.errorPage .indexBox div.bd {
+    height: 300px;
+    margin-left: 0;
+    min-height: auto !important;
+}
+.loginForm fieldset legend {
+    display: none;
+}
+.sectionDefaultMaster .mediaWide div.mediaArea, .sectionDefaultMaster .mediaWide div.banner {
+    border: 0 none;
+    height: 341px;
+    padding: 0 0 0.5em;
+    width: 100%;
+}
+.detailMaster .mediaWide div.mediaArea, .detailMaster .mediaWide div.banner {
+    border: 0 none;
+    height: 197px;
+    padding: 0 0 0.5em;
+    width: 100%;
+}
+.detailMaster .coll .bd {
+    height: inherit;
+    overflow: hidden;
+}
+#ticker {
+    text-align: center;
+}
+#ticker > div {
+    background: url("../m/img/content/progressive-casino/back.jpg") no-repeat scroll center center transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+.orphanPageMaster div.bd {
+    padding-bottom: 2em;
+    padding-top: 1.5em;
+}
+.orphanPageMaster .staticPage .wcmText {
+    padding-top: 0;
+}
+.tooltipContainer {
+    background: #2D2E2C;
+    float: left;
+    height: 26px;
+    /*overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 2;*/
+}
+.tooltipHeader {
+    background: #2D2E2C;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    cursor: default;
+    float: left;
+    height: 30px;
+    width: 100%;
+}
+
+.infomationLogin 
+{
+background: url("../img/bg-accountWindow-hd-left.gif") no-repeat scroll left top transparent;
+cursor: default;
+float: left;
+height: 30px;
+width: 100%;
+}
+
+.tooltipHeader2 {
+    background: url("../img/bg-accountWindow-hd-left.gif") no-repeat scroll left top transparent;
+    cursor: default;
+    float: left;
+    height: 30px;
+    width: 100%;
+}
+.userName {
+    float: left;
+    font-size: 1em;
+    margin: 0.6em 0 0.7em;
+    overflow: hidden;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+    white-space: nowrap;
+    width: 130px;
+}
+.userIdent {
+    float: left;
+    font-size: 1em;
+    margin: 0.6em 0 0.7em;
+    overflow: hidden;
+    padding-right: 3px;
+    text-align: right;
+    white-space: nowrap;
+    width: 80px;
+}
+a#expColl {
+    cursor: default;
+    float: right;
+    height: 16px;
+    margin-right: 0.6em;
+    margin-top: 0.4em;
+    width: 14px;
+}
+div.tooltipContainer span#mailIcon {
+    background-image: url("../img/ico-message-anim.gif");
+    display: none;
+    float: right;
+    height: 13px;
+    margin: 0.7em 0.4em 0 0;
+    width: 18px;
+}
+.tooltipBody {
+    background: url("../img/bg-accountWindow-bd.gif") repeat-x scroll left bottom #565656;
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+    float: left;
+    width: 252px;
+}
+dl.userAccount {
+    clear: left;
+    float: left;
+    margin-bottom: 0.5em;
+    overflow: hidden;
+    width: 100%;
+}
+dl.userAccount dt {
+    clear: left;
+    float: left;
+    font-weight: normal;
+    margin-bottom: 1px;
+    margin-left: 1.5em;
+    margin-top: 0.25em;
+    padding: 0;
+    width: 45%;
+}
+dl.userAccount dd {
+    clear: right;
+    cursor: default;
+    float: right;
+    margin-bottom: 1px;
+    margin-right: 1.25em;
+    margin-top: 0.25em;
+    padding: 0;
+    text-align: right;
+    width: 40%;
+}
+#hd a.closed {
+    background-image: url("../img/ico-toggle-btn-sprite.gif");
+    background-position: 98% -47px;
+}
+#hd a.opened {
+    background-image: url("../img/ico-toggle-btn-sprite.gif");
+    background-position: 98% -97px;
+}
+#hd .tooltipContainer div.btn a {
+    display: block;
+    float: left;
+    list-style: none outside none;
+    margin-top: 0.2em;
+    padding-bottom: 0.5em;
+}
+#hd .tooltipContainer ul.btn li.first {
+    margin-left: 0.55em;
+}
+#hd .tooltipContainer div.btn {
+    margin: 0 0 0 0.9em;
+    padding: 0;
+}
+#hd .tooltipContainer div.btn a, #hd .tooltipContainer div.btn a:link, #hd .tooltipContainer div.btn a:visited, #hd .tooltipContainer div.btn a:hover, #hd .tooltipContainer div.btn a:active {
+    background: url("../img/bg-button-sprite.gif") repeat-x scroll left top transparent;
+    display: block;
+    font-size: 0.9em;
+    height: 2em;
+    line-height: 1.9em;
+    margin: 1em;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 10em;
+}
+#hd .tooltipContainer div.btn a:hover {
+    background-position: left -100px;
+}
+ul.messageList {
+    margin: 0;
+    padding: 0;
+}
+ul.messageList li.msg {
+    background: none no-repeat scroll 0.5em 0.5em transparent;
+    list-style: none outside none;
+    margin-left: 0;
+    padding: 0.2em 0.25em 0.25em;
+}
+ul.messageList .messageHd span.control {
+    display: block;
+    left: -32px;
+    position: absolute;
+    top: -0.2em;
+}
+.messageHd .control a span {
+    left: -9000px;
+    position: absolute;
+}
+.messageHd .control a.collapsed, .messageHd .control a.expanded {
+    background: url("../img/ico-toggle-btn-sprite.gif") no-repeat scroll left top transparent;
+    display: block;
+    height: 21px;
+    width: 32px;
+}
+.messageHd .control a.collapsed {
+    background-position: center -46px;
+}
+.messageHd .control a.collapsed:hover {
+    background-position: center -146px;
+}
+.messageHd .control a.expanded {
+    background-position: center -96px;
+}
+.messageHd .control a.expanded:hover {
+    background-position: center -196px;
+}
+ul.messageList span.ico-new {
+    left: 6px;
+    position: absolute;
+    top: 24px;
+}
+ul.messageList .msg h3 {
+    clear: both;
+    float: none;
+    margin: 0.5em 0 0.25em 0.5em;
+}
+ul.messageList .msg .messageBd, ul.messageList .msg .replyBd {
+    padding: 0.25em 0.5em;
+}
+ul.messageList .msg h4 {
+    margin: 0 0 0.5em;
+}
+ul.messageList div.details_wrapper, ul.messageList div.reply_wrapper, ul.messageList div.replyBd {
+}
+ul.messageList .msg .replyBd {
+    margin-left: 3%;
+}
+ul.messageList .msg dl {
+    clear: both;
+}
+ul.messageList .msg .messageBd dl {
+    overflow: hidden;
+}
+ul.messageList .msg dl dt {
+    width: 10%;
+}
+ul.messageList .msg dl dd {
+    width: 88%;
+}
+ul.messageList .msg dl dd.text {
+    padding-bottom: 0.5em;
+}
+ul.messageList .msg dl dd p {
+    display: inline;
+}
+.messageList ul.detailedMsg {
+    height: auto;
+    margin-left: 3%;
+    width: 88%;
+}
+.detailedMsg .icoUser {
+    left: 0.5em;
+    position: absolute;
+}
+.messageList ul.detailedMsg li {
+    list-style: none outside none;
+    margin: 0.25em 0 0;
+    padding: 0.25em;
+}
+.messageList .replyBd fieldset {
+    width: 88%;
+}
+.glossaryTop {
+    padding: 1em 0 2em;
+}
+.glossaryTop h2 {
+    color: #981C1F;
+    margin-top: 0;
+}
+ul.glossaryMenu {
+    background: url("../img/bg-hd-gradient-sprite.gif") no-repeat scroll right -52px transparent;
+    border: 1px solid #CCCCCC;
+    display: block;
+    height: 22px;
+    margin: 1em auto;
+    padding: 3px 1px 3px 4px;
+    width: auto;
+}
+.glossaryMenu li {
+    float: left;
+    list-style: none outside none;
+    margin: 0 1px 0 0;
+    padding: 0;
+    text-align: center;
+}
+.glossaryMenu li a, .glossaryMenu li a:link, .glossaryMenu li a:visited, .glossaryMenu li a:hover, .glossaryMenu li a:active {
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    display: block;
+    height: 14px;
+    margin: 0;
+    min-width: 13px;
+    padding: 3px 5px;
+    width: 40px;
+}
+.glossaryMenu li a.selected, .glossaryMenu li a.selected:link, .glossaryMenu li a.selected:visited, .glossaryMenu li a.selected:hover, .glossaryMenu li a.selected:active {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #003F7E;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+dl.glossaryItems dd {
+    clear: left;
+    margin-top: 0.1em;
+    padding-bottom: 1.5em;
+}
+#sportsBetting .categoryHeader, #sportsBetting .categoryFooter {
+    clear: both;
+}
+div.breadcrumb {
+    padding-bottom: 0.8em;
+    padding-top: 0.6em;
+}
+.breadcrumb ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+.breadcrumb ul li {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding-left: 2em;
+}
+.breadcrumb a, .breadcrumb a:link, .breadcrumb a:visited, .breadcrumb a:active {
+    color: white;
+    font-weight: bold;
+}
+.breadcrumb a:hover {
+    text-decoration: none;
+}
+.dynamicPage {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+#sportsBetting ul.articlePreview {
+    margin: 15px;
+}
+#sportsBetting ul.articlePreview li {
+    background: url("../img/ico-links-sprite.gif") no-repeat scroll left top transparent;
+    list-style: none outside none;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    padding: 0 1em 1em 0.75em;
+}
+/*#sportsBetting .centralColl ul.articlePreview li {
+    width: 94.3% !important;
+}*/
+.articlePreview .introduction .pageTitle, .articlePreview .introduction .pageTitle a, .article .introduction .pageTitle, .article .introduction .pageTitle a {
+    clear: left;
+    margin-bottom: 0.1em;
+}
+.articlePreview .introduction .pageSubTitle, .article .introduction .pageSubTitle {
+    margin-bottom: 0.25em;
+    margin-top: 0;
+}
+.introduction .author {
+    clear: left;
+    display: block;
+    margin-bottom: 1.5em;
+}
+.article .wcmText, .dynamicPage .wcmText {
+    clear: left;
+    margin-left: 0;
+}
+.article .wcmText p {
+    margin-bottom: 1em;
+}
+.articlePreview .introduction .pageTitle, .articlePreview .introduction .pageSubTitle {
+    float: left;
+}
+.articlePreview .introduction .author {
+    margin-bottom: 0.5em;
+}
+.articlePreview .introduction h2 a .pageTitle {
+    padding-right: 0.25em;
+}
+.articlePreview .introduction h2 a .pageSubTitle {
+    margin-bottom: 0.3em;
+}
+#articleArchives div.bd {
+    padding-left: 1em;
+    padding-top: 0;
+}
+#articleArchives ul.links {
+    margin: 0;
+    padding: 0;
+    width: 99%;
+}
+#articleArchives ul.links li {
+    background-image: none;
+    border-bottom: 1px solid #CCCCCC;
+    list-style: none outside none;
+    margin: 0;
+    padding-right: 0;
+    padding-top: 2px;
+}
+#articleArchives ul.links li:last-child {
+    border: medium none;
+    margin-bottom: 0.25em;
+}
+#articleArchives ul.links li ul {
+    margin: 0;
+    padding: 0 0 0.5em;
+    width: 100%;
+}
+#articleArchives ul.links li li {
+    background: url("../img/ico-links-sprite.gif") no-repeat scroll 10px -398px transparent;
+    border: medium none;
+    list-style: none outside none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 2em;
+    padding-top: 0;
+}
+#articleArchives ul.links li li span {
+    color: #666666;
+    display: inline-block;
+    margin: 0;
+    padding: 2px 0;
+    vertical-align: top;
+    width: 18%;
+}
+#articleArchives ul.links li a {
+    background-image: none;
+    display: block;
+    margin: 0;
+    padding: 0.25em 0.2em 0.4em 2em;
+}
+#articleArchives ul.links li li a {
+    background-color: white;
+    background-image: none;
+    display: inline-block;
+    font-weight: normal;
+    margin: 0;
+    padding: 2px 0;
+    width: 80%;
+}
+#articleArchives ul.links li a {
+    background-image: url("../img/ico-toggle-btn-sprite.gif");
+    background-repeat: no-repeat;
+}
+#articleArchives ul.links li a.collapsed {
+    background-position: 2px -47px;
+}
+#articleArchives ul.links li a.collapsed:hover {
+    background-position: 2px -147px;
+}
+#articleArchives ul.links li a.expanded {
+    background-position: 2px -97px;
+}
+#articleArchives ul.links li a.expanded:hover {
+    background-position: 2px -197px;
+}
+#sportsBetting .followBetOnline div.first {
+    float: left;
+    margin-bottom: 0.1em;
+    margin-top: 0.25em;
+    width: 49%;
+}
+.followBetOnline .first ul {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.followBetOnline div.rssFeeds {
+    border-left: 1px solid #CCCCCC;
+    float: left;
+    width: 49%;
+}
+.followBetOnline .rssFeeds span {
+    display: block;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.followBetOnline .rssFeeds a {
+    background: url("../img/ico-RSS-32x32.gif") no-repeat scroll 0 2px transparent;
+    display: block;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding: 1em 0 1em 4em;
+}
+.newsletter div.bd span {
+    display: block;
+    padding: 1em 1em 0;
+    width: 70%;
+}
+.newsletter div.bd a {
+    display: block;
+    padding: 1em 0 1.5em 1em;
+}
+#sportsBetting .article .tools {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC;
+    border-image: none;
+    border-right: 0 solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px 0 0;
+    bottom: -0.25em;
+    clear: both;
+    margin-left: -0.25em;
+    padding-right: 0.5em;
+    position: relative;
+    width: 100%;
+}
+#sportsBetting .article .tools p {
+    display: inline;
+    font-weight: bold;
+    line-height: 4em;
+    margin: 1em 1.4em;
+}
+#sportsBetting .article .tools a {
+    background: none no-repeat scroll left top transparent;
+    line-height: 4em;
+    margin: 1em 1.4em;
+    padding-bottom: 0.2em;
+    padding-left: 2em;
+    padding-top: 0.2em;
+}
+#sportsBetting .article .tools a.printer {
+    background-position: left -84px;
+    cursor: pointer;
+}
+#sportsBetting .article .tools a.mail {
+    background-position: left -34px;
+}
+#sportsBetting .rss {
+    background: url("../img/ico-mediaLinks-sprites.gif") no-repeat scroll left top transparent;
+    display: block;
+    float: right;
+    height: 17px;
+    margin-top: 6px;
+    width: 17px;
+}
+div#emailtofriend, div.overlay div.feedBox, div#sentConfirmationWindow {
+    position: static;
+}
+div#sentConfirmationWindow {
+    margin-bottom: 2em;
+}
+div#emailtofriend input {
+    width: 20em;
+}
+p.nothanks {
+    margin-bottom: 2em;
+}
+div#refer_3col {
+    width: 100%;
+}
+div#refer_3col div.refer_left {
+    float: left;
+    width: 21%;
+}
+div#refer_3col div.refer_right {
+    float: right;
+    width: 52%;
+}
+div#refer_3col div.refer_center {
+    margin-left: 24%;
+    margin-right: 55%;
+}
+table.record thead th, table.record tbody th {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-collapse: separate;
+    border-color: -moz-use-text-color -moz-use-text-color #EEEEEE;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: black;
+    height: auto;
+    text-align: center;
+}
+table.record thead th {
+    background-color: #DDDDDD;
+    text-align: center;
+    text-transform: uppercase;
+}
+table.record tbody th {
+    background-color: transparent;
+    font-weight: normal;
+}
+#payout_comments blockquote {
+    background-color: #CCCCCC;
+    padding: 2em;
+    text-align: center;
+    width: 50%;
+}
+#payout_comments blockquote h3 {
+    font-family: serif;
+    font-size: 220%;
+    font-weight: normal;
+    margin: 0;
+    white-space: nowrap;
+    width: auto;
+}
+#payout_comments div.reasons {
+    border-top: 1px solid #CCCCCC;
+    margin-top: 1em;
+}
+#payoutRequest .note .important {
+    color: black !important;
+}
+#payoutRequest .note .payoutsVar {
+    color: #981C1F;
+    font-weight: bold;
+}
+#payoutRequest #mvcValidation {
+    clear: both;
+    position: relative;
+}
+#payoutRequest .fields input.readonly {
+    margin-right: 0.5em;
+    width: 10%;
+}
+#payoutRequest .confirmationInfo dl {
+    margin-left: 22%;
+    width: 70%;
+}
+#payoutRequest dl.grid dt {
+    width: 30%;
+}
+#payoutRequest dl.grid dd {
+    width: 65%;
+}
+#payoutRequest li.first div#rules {
+    background-color: #EEEEEE;
+    margin-top: -1.5em;
+    position: absolute;
+    right: 1em;
+    width: 40%;
+}
+div#refer_3col p {
+    float: left;
+    width: 26%;
+}
+div#refer_3col p.first {
+    width: 26%;
+}
+div#refer_3col p.last {
+    width: 46%;
+}
+div#refer_3col input.referfriendemail {
+    width: 27em;
+}
+#contestList ul.preview {
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+#contestList ul.preview li {
+    border: 0 none;
+    display: block;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+}
+#contestList ul.preview li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: white;
+    border-color: #999999;
+    border-image: none;
+    border-right: 0 solid #999999;
+    border-style: solid;
+    border-width: 1px 0 0;
+    padding-bottom: 0.35em;
+    padding-left: 0.25em;
+    padding-top: 0.4em;
+    text-decoration: none;
+    width: 97.75%;
+}
+#contestList ul.preview li:first-child a, #contestList ul.preview li.first a {
+    border-top-width: 0;
+    padding-top: 0.2em;
+}
+#contestList ul.preview li a:hover {
+    background-color: #CCCCCC;
+}
+#contestList ul.preview li a big {
+    color: #000000;
+    font-style: italic;
+    font-variant: small-caps;
+    margin-top: -0.1em;
+    text-decoration: none;
+    width: 77%;
+}
+#contestList ul.preview li a span {
+    color: #333333;
+    cursor: pointer;
+    margin-top: 0.25em;
+    width: 77%;
+}
+#contestList ul.preview li a:hover span.more {
+    color: black;
+    text-decoration: none;
+}
+ul.links li a.imgLoyalty, ul.links li img {
+    background-image: none;
+    margin: 0;
+    padding: 0;
+}
+ul.loyalityPoints {
+    width: 97%;
+}
+ul.loyalityPoints li {
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+#freePlays span {
+    padding-left: 0.9em;
+}
+div.loyalityPoints br {
+    clear: both;
+}
+.loyalityPoints div.topImg {
+    float: left;
+    text-align: center;
+    width: 44%;
+}
+.loyalityPoints div.topText {
+    float: right;
+    width: 55%;
+}
+.loyalityPoints .topText h2 {
+    font-size: 250%;
+    padding-top: 0.25em;
+    width: auto;
+}
+.loyalityPoints .topText fieldset li {
+    margin: 0;
+    padding: 0;
+}
+.loyalityPoints .topText fieldset label {
+    padding-right: 0.25em;
+    width: auto;
+}
+.loyalityPoints dl.productDetails {
+    clear: both;
+    margin-top: 1em;
+}
+.loyalityPoints table.pointDisplay {
+    margin-bottom: 2em;
+}
+table.pointDisplay td, table.pointDisplay th {
+    border: medium none;
+}
+table.pointDisplay th {
+    background-color: #DDDDDD;
+    border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color white;
+    border-style: none none none solid;
+    border-width: medium medium medium 1px;
+    color: Black;
+    text-align: center;
+    text-transform: uppercase;
+}
+table.pointDisplay tbody th, table.pointDisplay tbody td {
+    border-bottom: 1px solid #EEEEEE;
+}
+table.pointDisplay tbody th {
+    background-color: White;
+}
+table.pointDisplay tbody td, table.pointDisplay tfoot td {
+    text-align: center;
+}
+table.pointDisplay thead th, table.pointDisplay .ptQty, table.pointDisplay .ptOptions {
+    text-align: center;
+}
+table.pointDisplay tfoot th {
+    text-align: right;
+}
+table.pointDisplay tfoot td {
+    background-color: #DDDDDD;
+    font-weight: bold;
+}
+.pointDisplay .ptQty input {
+    width: 2em;
+}
+#buyPoints dl.grid {
+    margin-left: 22%;
+    width: 51%;
+}
+#buyPoints .grid dt {
+    width: 70%;
+}
+#buyPoints .grid dd {
+    text-align: right;
+    width: 15%;
+}
+div#thankYou {
+    height: 21.2em;
+}
+dl.rssBd {
+    background-color: #EAEAEA;
+    border: 1px solid #CCCCCC;
+    margin: 3em auto 0;
+    padding: 5px;
+    width: 80%;
+}
+.rssBd dt {
+    background-color: #FFFFFF;
+    margin: 1px;
+    padding: 0.5em;
+    width: 26%;
+}
+.rssBd dd {
+    background-color: #FFFFFF;
+    margin: 1px;
+    padding: 0.5em 0;
+    width: 71%;
+}
+.rssBd dd a.icoRSS {
+    background: url("../img/ico-RSS-12x12.gif") no-repeat scroll left 55% transparent;
+    margin-left: 0.75em;
+    padding-left: 16px;
+}
+.rssBd dt.indent {
+    font-weight: normal;
+    text-indent: 1em;
+}
+.rssBd dt.header, .rssBd dd.header {
+    background-color: #EAEAEA;
+}
+.rssIntro {
+    padding-left: 1em;
+}
+div#form_join .fields select {
+}
+div#form_join .fields select.short {
+}
+div#form_join div.bd {
+}
+#forgotPassword div.bd {
+    height: 20em;
+}
+#forgotPassword .x2first {
+    clear: left;
+    float: left;
+    width: 55%;
+}
+#forgotPassword .fields label {
+    width: 30%;
+}
+#forgotPassword .fields input {
+    float: left;
+}
+#forgotPassword .fields div.message {
+    float: left;
+    margin-left: 0.5em;
+    width: 42%;
+}
+#forgotPassword fieldset .fields li.action {
+    clear: left;
+    padding-left: 30%;
+}
+#forgotPassword .x2 {
+    float: right;
+    width: 43%;
+}
+#forgotPassword .x2 .wcmText {
+    border: 1px solid #CCCCCC;
+    padding: 1em;
+}
+#footerLogo ul li a img {
+    height: 30px;
+}
+#footerLogo ul li {
+    display: inline;
+}
+ul.siteMap {
+    float: left;
+    margin: 0;
+    width: 49%;
+}
+ul.siteMap li {
+    list-style: none outside none;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-top: 0.5em;
+    padding-left: 0;
+}
+ul.siteMap li ul {
+    margin-bottom: 3em;
+    margin-left: 0;
+}
+ul.siteMap li ul ul {
+    margin-bottom: 1em;
+}
+ul.siteMap li ul li {
+    list-style-type: disc;
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+ul.siteMap li ul li ul li {
+    list-style: circle outside none;
+    margin-bottom: 0.5em;
+}
+ul.siteMap li a, ul.siteMap li a:link, ul.siteMap li a:visited, ul.siteMap li a:hover, ul.siteMap li a:active {
+    text-decoration: none;
+}
+ul.siteMap li h3 {
+    color: #981C1F;
+    margin-bottom: 0.75em;
+    margin-top: 0.25em;
+}
+div.help em {
+    font-style: normal;
+    font-weight: bold;
+}
+div.help p.intro {
+    margin-top: 2em;
+}
+div.help img.live_support {
+    border: 1px solid #DDDDDD;
+    float: right;
+    margin-right: 0;
+    padding: 1px;
+}
+div.stadium_plan {
+    text-align: center;
+}
+div.stadium_plan img {
+    border: 1px solid #CCCCCC;
+    padding: 1px;
+}
+div.horseBetting .iframeContainer {
+    width: 100%;
+}
+div.horseBetting .iframeContainer iframe, div.casino .iframeContainer iframe {
+    height: 900px;
+    width: 99.6%;
+}
+.contestParagraph {
+    float: right;
+    width: 665px;
+}
+.contestBanner {
+    background: url("../img/content/contests/nfl-survivor-banner.gif") no-repeat scroll 0 0 transparent;
+    height: 200px;
+    width: 973px;
+}
+.footballnflregular {
+    background: url("../img/content/contests/footballnflregular.gif") no-repeat scroll 0 0 transparent;
+}
+.footballnflunderdog {
+    background: url("../img/content/contests/footballnflunderdog.gif") no-repeat scroll 0 0 transparent;
+}
+.contestText {
+    padding: 1em;
+}
+.contestText h2 {
+    margin-top: 0;
+}
+.contestMenu {
+    clear: both;
+    padding: 1em;
+}
+.contestMenu ul {
+    float: right;
+    width: auto;
+}
+.contestMenu ul li {
+    background: url("../img/bg-ft-nav-pipe.gif") no-repeat scroll 0 0 transparent;
+    float: left;
+    list-style: none outside none;
+    padding-left: 1em;
+}
+.contestMenu ul li.first {
+    background: none repeat scroll 0 0 transparent;
+}
+.contestMenu ul li a, .contestMenu ul li a:link, .contestMenu ul li a:visited, .contestMenu ul li a:active {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.contestMenu ul li a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+.contestLegend {
+    border: 0 none;
+    clear: both;
+    width: 100%;
+}
+.contestLegend td {
+    border: 0 none;
+}
+.contestText .pick {
+    font-weight: bold;
+    margin-top: 2em;
+}
+.contestPage {
+    clear: both;
+}
+.contestPage .w33P {
+    border-left: 0 none;
+    width: 33%;
+}
+.contestPage .w34P {
+    width: 34%;
+}
+.contestPage .w50P {
+    width: 50%;
+}
+.contestPage .bg h2 {
+    width: 100%;
+}
+.contestPage .bg h2 span {
+    display: inline-block;
+}
+.contestPage .indexBox .bd {
+    padding: 0;
+}
+.contestPage td {
+    border-bottom: 0 none #666666;
+    border-color: #666666;
+    border-top: 0 none #666666;
+}
+.contestPage td.last {
+    border-right: 0 none;
+}
+.contestPage .indexBox input {
+}
+table.contest_rules td {
+    border: 0 none;
+    text-align: right;
+}
+div#mySpecs li {
+    background: url("../img/ico-links-sprite.gif") no-repeat scroll left top transparent;
+    list-style: none outside none;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    padding: 0 1em 1em 0.75em;
+}
+div#mySpecs .bd h2, div#mySpecs .specs_server_side, div#mySpecs .specs_client_side {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+div#mySpecs li span {
+    display: inline-block;
+    width: 60%;
+}
+div#mySpecs li span.def {
+    font-weight: bold;
+    vertical-align: top;
+    width: 15%;
+}
+div#mySpecs .specs_server_side, div#mySpecs .specs_client_side {
+    border: 1px solid #EFEFEF;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.add a, .add a:link, .add a:visited, .add a:hover, .add a:active {
+    color: #981C1F;
+    text-decoration: none;
+}
+.add a:hover {
+    color: black;
+}
+a.link, ul.links li a {
+    background-image: url("../img/ico-links-sprite.gif");
+}
+button, a.btn {
+    background: url("../img/bg-button-sprite.gif") repeat-x scroll left -1px black;
+    border-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 0.25em 0.5em 0.4em;
+}
+#vocalcom-navbar .actions-container .btn.close-action {
+    background: none;
+}
+a.btn {
+    cursor: pointer;
+    padding: 0.5em 0.7em 0.6em;
+    text-decoration: none;
+}
+button:hover, a.btn:hover {
+    background-color: #981C1F;
+    background-position: left -51px;
+}
+button span, a.btn span:not(.icon-thewave) {
+    background: url("../img/ico-form-btn-sprite-bg-black.gif") no-repeat scroll left top transparent;
+}
+button.submit span, a.submit span, button.go span, a.go span {
+    background: url("../img/ico-form-btn-sprite-bg-black.gif") no-repeat scroll right -200px transparent;
+    padding-right: 24px;
+}
+button.submit:hover span, a.submit:hover span, button.go:hover span, a.go:hover span {
+    background-image: url("../img/ico-form-btn-sprite-bg-gray.gif");
+    background-position: right -250px;
+}
+button.ok span, a.ok span, button.check span, a.check span {
+    background: url("../img/ico-form-btn-sprite-bg-black.gif") no-repeat scroll right -100px transparent;
+    padding-right: 24px;
+}
+button.ok:hover span, a.ok:hover span, button.check:hover span, a.check:hover span {
+    background-image: url("../img/ico-form-btn-sprite-bg-gray.gif");
+    background-position: right -150px;
+}
+button.reset span, a.reset span {
+    background: url("../img/ico-form-btn-sprite-bg-black.gif") no-repeat scroll right -300px transparent;
+    padding-right: 24px;
+}
+button.reset:hover span, a.reset:hover span {
+    background-image: url("../img/ico-form-btn-sprite-bg-gray.gif");
+    background-position: right -350px;
+}
+button.back span, a.back span {
+    background: url("../img/ico-form-btn-sprite-bg-black.gif") no-repeat scroll left -450px transparent;
+    padding-left: 20px;
+}
+button.back:hover span, a.back:hover span {
+    background-image: url("../img/ico-form-btn-sprite-bg-gray.gif");
+    background-position: left -500px;
+}
+button.edit span, a.edit span {
+    background: url("../img/ico-form-btn-sprite-bg-black.gif") no-repeat scroll left -550px transparent;
+    padding-left: 20px;
+}
+button.edit:hover span, a.edit:hover span {
+    background-image: url("../img/ico-form-btn-sprite-bg-gray.gif");
+}
+button.delete span, a.delete span {
+    background: url("../img/ico-form-btn-sprite-bg-black.gif") no-repeat scroll left -600px transparent;
+    padding-left: 20px;
+}
+button.delete:hover span, a.delete:hover span {
+    background-image: url("../img/ico-form-btn-sprite-bg-gray.gif");
+}
+button.add span, a.add span {
+    background: url("../img/ico-form-btn-sprite-bg-black.gif") no-repeat scroll left -650px transparent;
+    padding-left: 20px;
+}
+button.add:hover span, a.add:hover span {
+    background-image: url("../img/ico-form-btn-sprite-bg-gray.gif");
+}
+button.cancel span, a.cancel span {
+    background: url("../img/ico-form-btn-sprite-bg-black.gif") no-repeat scroll left -700px transparent;
+    padding-left: 20px;
+}
+button.cancel:hover span, a.cancel:hover span {
+    background-image: url("../img/ico-form-btn-sprite-bg-gray.gif");
+}
+button.refresh span, a.refresh span, button.update span, a.update span {
+    background: url("../img/ico-form-btn-sprite-bg-black.gif") no-repeat scroll left -750px transparent;
+    padding-left: 20px;
+}
+button.refresh:hover span, a.refresh:hover span, button.update:hover span, a.update:hover span {
+    background-image: url("../img/ico-form-btn-sprite-bg-gray.gif");
+}
+label {
+    color: #666666;
+    font-weight: bold;
+}
+label strong, label b {
+    color: #333333;
+}
+select, input, textarea {
+    background-color: white;
+    border: 1px solid #999999;
+}
+input:focus, textarea:focus, select:focus {
+    background-color: #FFFFE5;
+    border-color: black;
+    color: black;
+}
+input.readOnly, input.readonly, textarea.readOnly, textarea.readonly {
+    background-color: #EFEFEF;
+    border-color: #CCCCCC;
+    color: #666666;
+}
+fieldset, div.fieldset, div.fieldset-action {
+    border-color: #CCCCCC;
+}
+fieldset.action, fieldset.actions, fieldset.filters, div.fieldset-action {
+    background-color: #EEEEEE;
+}
+fieldset legend {
+    color: #999999;
+    font-size: 131%;
+}
+.mandatory {
+    color: #666666;
+}
+ul.fields label em, .mandatory big {
+    color: black;
+}
+.mandatory big {
+    font-size: 130%;
+    letter-spacing: 0;
+    line-height: 60%;
+    vertical-align: text-bottom;
+    display: inline-flex;
+}
+.fields .validation-error label {
+    color: black;
+}
+.field-validation-error {
+    background: url("../img/ico-form-btn-sprite-bg-white.gif") no-repeat scroll 5px -50px transparent;
+    color: #CC0000;
+    padding-left: 26px;
+}
+.errors span.field-validation-error {
+    background: url("../img/ico-list-bullet-red.gif") no-repeat scroll 5px center transparent;
+    padding-left: 20px;
+}
+.errorPage .bd .introduction {
+    background: url("../img/ico-form-btn-sprite-32x32-bg-white.gif") no-repeat scroll left -48px transparent;
+    padding-left: 48px;
+}
+.errorPage .bd .introduction h2 {
+    margin-bottom: 0;
+}
+.flashAlt p {
+    background: url("../img/ico-form-btn-sprite-bg-white.gif") no-repeat scroll 10px -40px white;
+    border: 1px solid #CC0000;
+    color: black;
+    margin: 1em;
+    padding: 10px 10px 10px 30px;
+    width: auto;
+}
+.flashAlt a {
+    font-weight: bold;
+}
+.emptyData .ico, .problem .ico, .errors .ico {
+    background-image: url("../img/ico-form-btn-sprite-bg-white.gif");
+}
+div.problem, div.errors {
+    border: 1px solid #CC0000;
+    color: #CC0000;
+}
+div span.validation-summary-errors {
+    background: url("../img/ico-form-btn-sprite-bg-white.gif") no-repeat scroll left -50px transparent;
+    font-weight: bold;
+    padding-left: 2em;
+}
+.ico-new {
+    background: url("../img/ico-new-anim.gif") no-repeat scroll center center transparent;
+    height: 10px;
+    text-indent: -9000px;
+    width: 18px;
+}
+caption {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 0 0 0 -1px;
+    padding: 0.75em 1px 0.75em 0;
+    text-align: left;
+    text-indent: 0.5em;
+    text-transform: uppercase;
+}
+thead th, tfoot th {
+    background-color: #666666;
+    color: white;
+}
+tbody th {
+    background-color: #B4B4B4;
+    color: black;
+}
+#liveLines .bd fieldset {
+    background-color: #000000;
+    border-color: #999999;
+}
+#liveLines table thead th {
+    text-align: center;
+}
+#liveLines table tbody th {
+    text-align: left;
+    width: 30%;
+}
+#liveLines .first strong {
+    font-weight: normal;
+}
+#liveLines .fav strong {
+    font-weight: bold;
+}
+#liveLines table tbody td {
+    height: 2.5em;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    text-align: center;
+}
+#bd .media h1 {
+    color: #981C1F;
+    font-size: 108%;
+    margin-bottom: 0;
+}
+#bd .media .main h2 {
+    margin-top: 0;
+}
+.mainColl .media .mediaArea {
+    background-image: url("../img/bg-mediaAreaDetail.gif");
+    border-width: 0;
+    height: 138px;
+}
+.centralColl .hd .bg, .feedBox .hd .bg, .feedBox .hd .bgL, .feedBox .hd .bgR, .indexBox .hd .bg, .indexBox .hd .bgL, .indexBox .hd .bgR {
+    background-color: transparent;
+    background-image: url("../img/bg-hd-gradient-sprite.gif");
+    height: 30px;
+}
+.feedBox div.bd, .indexBox div.bd {
+    background-color: white;
+    border-color: #999999;
+}
+#bd .line .ico-row span.ico {
+    background-color: transparent;
+    background-image: url("../img/ico-sports-sprite-bg-gray.gif");
+}
+#bd .line .ico-group h2 {
+    background-color: #666666;
+    color: white;
+}
+#bd .line .ico-group h2.ico {
+    background-image: url("../img/ico-sports-sprite-bg-gray.gif");
+}
+#bd .line li dl dt {
+    color: #000000;
+}
+#bd .line li dl dd {
+    color: #000000;
+    text-align: right;
+}
+#bd .article .ico-group h2 {
+    background-color: transparent;
+    color: #981C1F;
+}
+#bd .article .ico-group h2.ico {
+    background-image: url("../img/ico-sports-sprite-bg-white.gif");
+}
+.feedBox th, .feedBox td {
+    border-color: #EEEEEE;
+}
+.feedBox .bd div.scrollable {
+    background-color: #999999;
+    max-height: 500px;
+}
+.contests .bd div.scrollable {
+    background-color: #FFFFFF;
+}
+div.nav {
+  /*  background-color: white;
+    border-color: #999999;*/
+}
+div.nav fieldset {
+    background-color: #CCCCCC;
+}
+div.nav button.submit span {
+    background-image: url("../img/bt-nav-submit.gif");
+}
+div.nav .dyn a {
+    color: black;
+    font-weight: bold;
+}
+ul.makeLink li span.expCollPos {
+    background-color: #CCCCCC;
+}
+div.nav .dyn span.collapsed, div.nav .dyn a.collapsed {
+    background: url("../img/ico-toggle-btn-sprite.gif") no-repeat scroll 1px -47px #CCCCCC;
+}
+div.nav .dyn a.collapsed, div.nav .dyn a.collapsed:hover {
+    background-position: 98% -47px;
+}
+div.nav .dyn span.collapsed:hover {
+    background-position: 1px -147px;
+}
+div.nav .dyn span.expanded, div.nav .dyn a.expanded {
+    background: url("../img/ico-toggle-btn-sprite.gif") no-repeat scroll 1px -97px #CCCCCC;
+}
+div.nav .dyn a.expanded, div.nav .dyn a.expanded:hover {
+    background-position: 98% -197px;
+}
+div.nav .dyn span.expanded:hover {
+    background-position: 1px -197px;
+}
+div.nav ul.selection li ul li input {
+    border: medium none;
+}
+div.nav .dyn li li a {
+    background-color: #E7E7E7;
+    font-weight: normal;
+}
+div.nav h2 {
+    background: none repeat scroll 0 0 gray;
+    border-color: #333333;
+    color: white;
+}
+div.nav .btn li {
+    text-align: center;
+}
+div.nav button, div.nav .btn li a, div.nav .btn li a:link, div.nav .btn li a:hover, div.nav .btn li a:visited, div.nav .btn li a:active {
+    background: url("../img/bg-button-sprite.gif") repeat-x scroll left top transparent;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+div.nav button, div.nav .btn li a, div.nav .btn li a:visited {
+    background-color: #750101;
+    background-position: left top;
+}
+div.nav button:hover, div.nav .btn li a:hover, div.nav button.active {
+    background-color: black;
+    background-position: left -50px;
+}
+div.nav .btn li a:active, div.nav .btn li a.active {
+    background-color: #333333;
+    background-position: left -100px;
+}
+ul.messageList li.msg {
+    background-image: url("../img/ico-message-32x32.gif");
+    padding-left: 38px;
+}
+.messageHd .control a.collapsed, .messageHd .control a.expanded {
+    background-image: url("../img/ico-toggle-btn-sprite.gif");
+}
+ul.messageList .msg dl dt {
+    color: #666666;
+    font-size: 84%;
+    font-weight: normal;
+}
+ul.messageList .msg dl dd {
+    color: #666666;
+}
+ul.messageList .msg dl dd p {
+    color: black;
+    font-family: "trebuchet ms",verdana,arial,helvetica,sans-serif;
+    font-size: 118%;
+}
+ul.messageList li.odd {
+    background-color: #EFEFEF;
+}
+ul.messageList li.even {
+    background-color: #DDDDDD;
+}
+.messageList ul.detailedMsg {
+    border-top: 1px solid #999999;
+}
+.messageList ul.detailedMsg li.odd, .messageList ul.detailedMsg li.even {
+    background-color: transparent;
+    border-bottom: 1px solid #999999;
+}
+.icoUser {
+    background: url("../img/ico-user-sprite.gif") no-repeat scroll left top transparent;
+    height: 16px;
+    text-indent: -9000px;
+    width: 16px;
+}
+.icoUser.management {
+    background-position: left -16px;
+}
+.even .even .icoUser, .even .odd .icoUser {
+    background-position: -16px top;
+}
+.even .even .icoUser.management, .even .odd .icoUser.management {
+    background-position: -16px -16px;
+}
+.replyBd fieldset {
+    border-color: #999999;
+}
+.breadcrumb ul li {
+    background: url("../img/ico-links-sprite.gif") no-repeat scroll 0.75em -100px transparent;
+    padding-left: 2em;
+}
+.breadcrumb ul li.first {
+    background-image: none;
+    padding-left: 0;
+}
+.article .introduction {
+    width: 100%;
+}
+.article .introduction .pageTitle {
+    color: #981C1F;
+}
+.article .introduction .pageSubTitle {
+    color: #333333;
+    font-size: 164%;
+}
+.article .introduction .author {
+    color: #666666;
+    font-size: 84%;
+}
+.articlePreview .introduction h2 {
+    clear: left;
+    font-size: 100%;
+    margin: 0;
+}
+.articlePreview .introduction a .pageTitle, .articlePreview .introduction a .pageSubTitle {
+    clear: left;
+    color: #981C1F;
+    font-size: 120%;
+    text-decoration: underline;
+}
+.articlePreview .introduction a .pageSubTitle {
+    font-family: Arial;
+    font-size: 160%;
+}
+.articlePreview .introduction a:hover .pageTitle, .articlePreview .introduction a:hover .pageSubTitle {
+    color: black;
+}
+#sportsBetting .article .tools {
+    background-color: #E7E7E7;
+    border-color: #CCCCCC;
+}
+#sportsBetting .article .tools a {
+    background-image: url("../img/ico-article-tools.gif");
+}
+#articleArchives ul.links li a.control {
+    font-weight: bold;
+    text-decoration: none;
+}
+#articleArchives ul.links li li a {
+    text-decoration: none;
+}
+#articleArchives ul.links li li a:hover {
+    text-decoration: underline;
+}
+.futurePropositions .icoSport, .futurePropositions .preview a {
+    text-transform: capitalize;
+}
+.futurePropositions .bd div.scrollable {
+    background-color: transparent;
+}
+div#overlay_join_terms {
+    background-color: white;
+    color: black;
+    height: 400px;
+    margin: 0;
+    overflow: auto;
+    padding: 1.5em;
+}
+div#overlay_join_terms p {
+    margin-bottom: 1em;
+}
+a.bold {
+    font-weight: bold;
+}
+.boxy-wrapper .title-bar {
+    background: url("../img/bg-hd-gradient-sprite.gif") repeat-x scroll left top transparent;
+}
+.boxy-wrapper .title-bar h2 {
+    font-weight: bold;
+}
+.boxy-wrapper .title-bar a.close {
+    background: url("../img/ico-form-btn-sprite-bg-black.gif") no-repeat scroll center -701px transparent;
+    height: 18px;
+    width: 18px;
+}
+.boxy-wrapper .title-bar a.close span {
+    display: block;
+    position: absolute;
+    text-indent: -9000px;
+}
+.newsletter div.bd {
+    background: url("../img/bg-newsletter.jpg") no-repeat scroll 100% -5px white;
+}
+.default-color, .defaultColor, .defaultcolor {
+    color: #333333;
+}
+.gray, .light, .light-gray, .lightGray, .lightgray {
+    color: #666666 !important;
+}
+.black, .dark, .dark-text {
+    color: black !important;
+}
+.red {
+    color: #981C1F !important;
+}
+.light-red, .lightRed, .lightred {
+    color: #C22426 !important;
+}
+.important {
+    color: #CC0000 !important;
+}
+.empty {
+    color: #666666 !important;
+    font-style: italic !important;
+}
+.nobr {
+    white-space: nowrap !important;
+}
+.br-after {
+    clear: both;
+    margin-bottom: 1em;
+}
+.spacer {
+    height: 1em;
+    width: 1%;
+}
+.spacer-y {
+    height: 1em;
+}
+.spacer-x {
+    width: 1%;
+}
+.clear {
+    clear: both !important;
+}
+.clearThin {
+    clear: both !important;
+    height: 0;
+}
+.clear-none {
+    clear: none !important;
+}
+.float, .float-left {
+    float: left !important;
+    position: relative;
+}
+.float-right {
+    float: right !important;
+    position: relative;
+}
+.inline {
+    display: inline !important;
+}
+ul.inline {
+    margin-left: 0;
+}
+ul.inline li {
+    border-left: 1px solid #999999;
+    float: left;
+    list-style: none outside none;
+    margin-left: 1.5em;
+    margin-right: 0;
+    padding-left: 1.5em;
+}
+ul.inline li.first, ul.inline li:first-child {
+    border-left-width: 0;
+    clear: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+div.imgCaption {
+    color: #666666;
+    float: right;
+    font-size: 84%;
+    margin: 0.2em 0 0.2em 0.2em;
+    padding: 0.1em;
+    vertical-align: baseline;
+    width: auto;
+}
+.imgCaption img {
+    clear: both;
+    margin-bottom: 0.25em;
+}
+.print-ticket-image {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+div#ft center a img {
+    display: inline;
+    /*float: left;*/
+    position: relative;
+}
+.subnav_Drop {
+    border: 2px solid black;
+    display: none;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 105px;
+    z-index: 1000;
+}
+.subnav_Drop li a:hover {
+    text-decoration: underline;
+}
+.subnav_Drop li {
+    background: url("images/nav-up.gif") repeat scroll 0 0 transparent;
+}
+.subnav_Drop li:hover {
+    background: url("images/nav-over.gif") repeat scroll center top transparent;
+}
+div.subscriptionLegend {
+    width: 50%;
+}
+div.subscriptionLegend ul {
+    list-style: none outside none;
+}
+div.subscriptionLegend ul li {
+    border: 20px none;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div.subscriptionLegend ul .legend {
+    color: Black;
+}
+div.subscriptionLegend ul .subscribed {
+    color: Black;
+    font-weight: bold;
+}
+div.subscriptionLegend ul .unsubscribed {
+    color: Gray;
+}
+.treeview, .treeview ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.treeview ul {
+    background-color: white;
+    list-style: none outside none;
+    margin-top: 4px;
+}
+.treeview .hitarea {
+    background: url("../img/treeview/treeview-default.gif") no-repeat scroll -64px -25px transparent;
+    cursor: pointer;
+    float: left;
+    height: 16px;
+    margin-left: -16px;
+    width: 16px;
+}
+* html .hitarea {
+    display: inline;
+    float: none;
+}
+.treeview li {
+    list-style-type: none;
+    margin: 0;
+    padding: 3px 0 3px 16px;
+}
+.treeview a.selected {
+    background-color: #EEEEEE;
+}
+#treecontrol {
+    display: none;
+    margin: 1em 0;
+}
+.treeview .hover {
+    color: red;
+    cursor: pointer;
+}
+.treeview li {
+    background: url("../img/treeview/treeview-default-line.gif") no-repeat scroll 0 0 transparent;
+}
+.treeview li.collapsable, .treeview li.expandable {
+    background-position: 0 -176px;
+}
+.treeview .expandable-hitarea {
+    background-position: -80px -3px;
+}
+.treeview li.last {
+    background-position: 0 -1766px;
+}
+.treeview li.lastCollapsable, .treeview li.lastExpandable {
+    background-image: url("../img/treeview/treeview-default.gif");
+}
+.treeview li.lastCollapsable {
+    background-position: 0 -111px;
+}
+.treeview li.lastExpandable {
+    background-position: -32px -67px;
+}
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea {
+    background-position: 0 0;
+}
+.treeview-red li {
+    background-image: url("../img/treeview/treeview-red-line.gif");
+}
+.treeview-red .hitarea, .treeview-red li.lastCollapsable, .treeview-red li.lastExpandable {
+    background-image: url("../img/treeview/treeview-red.gif");
+}
+.treeview-black li {
+    background-image: url("../img/treeview/treeview-black-line.gif");
+}
+.treeview-black .hitarea, .treeview-black li.lastCollapsable, .treeview-black li.lastExpandable {
+    background-image: url("../img/treeview/treeview-black.gif");
+}
+.treeview-gray li {
+    background-image: url("../img/treeview/treeview-gray-line.gif");
+}
+.treeview-gray .hitarea, .treeview-gray li.lastCollapsable, .treeview-gray li.lastExpandable {
+    background-image: url("../img/treeview/treeview-gray.gif");
+}
+.treeview-famfamfam li {
+    background-image: url("../img/treeview/treeview-famfamfam-line.gif");
+}
+.treeview-famfamfam .hitarea, .treeview-famfamfam li.lastCollapsable, .treeview-famfamfam li.lastExpandable {
+    background-image: url("../img/treeview/treeview-famfamfam.gif");
+}
+.filetree li {
+    padding: 3px 0 2px 16px;
+}
+.filetree span.folder, .filetree span.file {
+    display: block;
+    padding: 1px 0 1px 16px;
+}
+.filetree span.folder {
+    background: url("../img/treeview/folder.gif") no-repeat scroll 0 0 transparent;
+}
+.filetree li.expandable span.folder {
+    background: url("../img/treeview/folder-closed.gif") no-repeat scroll 0 0 transparent;
+}
+.filetree span.file {
+    background: url("../img/treeview/file.gif") no-repeat scroll 0 0 transparent;
+}
+#racebook-nav-div {
+    background-image: url("../img/bg-hd-gradient-sprite.gif");
+    height: 27px;
+}
+#racebook-nav-menu {
+    list-style: none outside none;
+    margin: 0 auto;
+    padding: 0;
+    width: 980px;
+}
+#racebook-nav-menu li {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 4px 0 0 4px;
+    position: relative;
+    text-align: center;
+    width: 191px;
+}
+#racebook-nav-menu li:hover {
+    background-image: url("../img/nav-over.gif");
+}
+a.racebook-nav-subMenu-link, a.racebook-nav-subMenu-link:active {
+    color: #CCCCCC;
+    display: block;
+    font-weight: bold;
+    line-height: 2em;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#racebook-nav-menu a b {
+    bottom: -1px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+#racebook-nav-menu li ul {
+    left: -999em;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+}
+#racebook-nav-menu li ul li, #racebook-nav-menu li ul li:hover {
+    background-color: white;
+    background-image: none;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 0 none;
+    list-style: none outside none;
+    margin: 0;
+    padding: 2px;
+    text-align: left;
+    z-index: 1;
+}
+#racebook-nav-menu li:hover ul {
+    left: -1px;
+    margin: 0;
+    padding: 0;
+    top: auto;
+}
+div.racebook-nav-subMenu-background {
+    background-color: #CCCCCC;
+    padding: 3px 0;
+    vertical-align: middle;
+}
+a.racebook-nav-subMenu-item, a.racebook-nav-subMenu-item:visited, a.racebook-nav-subMenu-item:hover {
+    border: medium none;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0 0 0 5px;
+    text-decoration: none;
+}
+#bd .mainColl .mainContentHorses {
+    min-width: 100%;
+    width: 100%;
+}
+.tooltip {
+    background-color: #C7C7C7;
+    border: 1px solid #FFFFFF;
+    color: black;
+    display: none;
+    font-size: 10px;
+    padding: 10px 15px;
+    text-align: left;
+    width: 200px;
+}
+table tr td fieldset {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color silver silver -moz-use-text-color;
+    border-image: none;
+    border-style: none double double none;
+    border-width: medium 2px 2px medium;
+    height: 350px;
+    margin: 0;
+    padding: 15px 0 0;
+}
+.regisTrationTable tr td, .regisTrationTable1 tr td {
+    border: 0 none white;
+    color: #666666;
+    font-weight: bold;
+    padding: 10px 3px 5px 0;
+}
+.regisTrationTable1 tr td label {
+    color: #666666;
+    font-weight: bold;
+}
+.regisTrationTable input[type="text"] {
+    width: 98%;
+}
+.errorInValid, label.error, div.error {
+    background-image: url("//ui.betonline.ag/nts/images/join/x.gif");
+    background-position: center top;
+    background-repeat: no-repeat;
+    border: 0 solid white;
+    display: block;
+    height: 11px;
+    margin: 0;
+    padding: 0;
+    width: 11px;
+}
+label.valid {
+    background-image: url("//ui.betonline.ag/nts/images/join/ok.gif");
+    background-position: center top;
+    background-repeat: no-repeat;
+    border: 0 solid white;
+    display: block;
+    height: 11px;
+    margin: 0;
+    padding: 0;
+    width: 11px;
+}
+td.validTD {
+    font-family: Arial;
+    font-size: 0;
+    font-style: normal;
+    height: 11px;
+    margin: 0;
+    padding: 0;
+    width: 11px;
+}
+#captchaContent img {
+    text-align: justify;
+}
+.balance_top_wrap {
+    background: none repeat scroll 0 0 #565656;
+    border-bottom: 0px solid #FFFFFF;
+    clear: both;
+    margin: 0;
+    overflow: hidden;
+	
+}
+#balance_top {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: center;
+}
+#balance_top li {
+    float: left;
+    list-style: none outside none;
+    text-align: center;
+}
+#balance_top a span {
+    color: #FFFFFF;
+    display: block;
+}
+#balance_top a {
+    border-left: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0 1em;
+    text-decoration: none;
+}
+#balance_top a:hover {
+    color: red;
+}
+#balance_top a.first {
+    border: 0 none;
+}
+#balance_top a.diabled {
+    color: #FFFFFF;
+}
+.new-regisTration-global-Table {
+    border: 1px double silver;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 100%;
+}
+.new-regisTrationTable tr td, .new-regisTrationTable1 tr td {
+    border: 0 none white;
+    color: #666666;
+    font-weight: bold;
+    padding: 0 6px 12px 0;
+}
+.new-regisTrationTable1 tr td label {
+    color: #666666;
+    font-weight: bold;
+}
+table.new-regisTration-global-Table fieldset {
+    border: medium none;
+    height: auto;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.new-regisTrationTable input[type="text"], .new-regisTrationTable input[type="password"] {
+    font-size: 120%;
+    height: 20px;
+    padding-top: 4px;
+    vertical-align: middle;
+    width: 98.5%;
+}
+.new-regisTrationTable tr td:first-child {
+    width: 27%;
+}
+.new-regisTrationTable tbody.account-details tr td span {
+    float: right;
+}
+.new-regisTrationTable tr td span {
+    line-height: 1.2em;
+    padding-right: 10px;
+}
+.new-regisTrationTable tr td span, .new-regisTrationTable tr td select, .new-regisTrationTable tr td input {
+    color: #363934;
+    font-size: 110%;
+}
+.new-regisTrationTable tr td select {
+    height: 25px;
+}
+.new-regisTrationTable {
+    border: 0 none;
+    width: 100%;
+}
+.new-regisTrationTable tr td.normalize-size {
+    padding-right: 0;
+}
+.new-regisTrationTable tr td.normalize-size select {
+    font-size: 120%;
+    height: 25px;
+    padding: 3px;
+    vertical-align: middle;
+    width: 98.5%;
+}
+.new-regisTrationTable tr td.normalizeTD {
+    width: 199px;
+}
+.new-regisTrationTable tr td.normalizeTDphm {
+    width: 205px;
+}
+/************************DTD - 39 *********************************/
+#balance-float{    
+z-index: 9999;
+}
+#balance-float-cashier{
+z-index: 9999;
+}
+
+/**************NDS-86*******************/
+.cb-th-header
+{
+	background:#030303; 
+	color:#FFFFFF; 
+	border: none;
+}
+.cb-th-thead
+{
+	background:#222121; 
+	color:#FFFFFF;
+	border: none;
+}
+
+.cb-th-body
+{
+	background:#3C3C3C;
+	color:#FFFFFF;
+	border:none;
+}
+
+#bet-now-come-back{
+display: block;
+width: 99px;
+height: 23px;
+background: url(//ui.betonline.ag/img/bet-now.png);
+background-repeat: no-repeat;
+position: absolute;
+top: 60px;
+left: 250px;
+z-index: 2;
+margin-top: -55px;
+}
+
+#bet-now-sportsbook{
+display: block;
+width: 99px;
+height: 23px;
+background: url(//ui.betonline.ag/img/bet-now.png);
+background-repeat: no-repeat;
+position: absolute;
+top: 60px;
+left: 20px;
+z-index: 2;
+margin-top: -55px;
+}
+
+.cb-th-date
+{
+	background:#2B2929; 
+	color:#FFFFFF;
+	border: none;
+} 
+
+/**************************************/
+.cb-total-line
+{
+background:#3C3C3C;
+color:#FFFFFF;
+border:none;
+width:6%;
+}
+
+.cb-total-point
+{
+background:#3C3C3C;
+color:#FFFFFF;
+border:none;
+width:7%;
+}
+
+.cb-spread-line
+{
+background:#3C3C3C;
+color:#FFFFFF;
+border:none;
+width:6%;
+}
+
+.cb-th-do-not-event
+{
+	background:#2B2929; 
+	border: none;
+	padding-bottom:15px; 
+	padding-top:15px; 
+	text-align:center; 
+	font-size:13px; 
+	color:#EEFC6B;
+}
+
+.cb-th-do-not-event-payout
+{
+	background:#000000; 
+	border: none;
+	padding-top:15px; 
+	text-align:center; 
+	font-size:11px; 
+	color:#EEFC6B;
+}
+
+/*Quick Deposit styles*/
+#quickDepositCashierForm_popup table td { text-align:center; }
+#quickDepositCashierForm_cancelButton { background-color: #870303 !important;  color:#fff !important; }
+
+/*********My Account Customer Limits Style*********/
+.cb-th-thead-cust-limit{
+	background:#d4d4d4; 
+	color: #000000;
+	border:none;
+	text-align:center;
+	height:10px;
+	width: 16%;
+	font-weight: bold;
+}
+.cb-td-tbbody-cust-limit  {
+	border: 1px solid gray;
+	height:10px;
+	width: 16%;
+	
+}
+
+.cb-td-tbbody-cust-limit-amount  {
+	border: 1px solid gray;
+	height:10px;
+	width: 16%;
+	text-align:center;
+	
+}
+
+.div-cust-limit{
+}
+
+.limit-parlay-teaser{
+	padding-top: 15px;
+	width: 400px;
+	left: 300px;
+}
+
+.cb-td-tbbody-cust-limit-tp{
+	width: 50px;	
+}
+
+.cb-td-tbbody-cust-limit-tp-l{
+	width: 80px;	
+}
+.cb-td-tbbody-cust-limit-details{
+padding: 0px;
+border: none;
+
+}
+
+#navlist li
+{
+float: left;
+margin-right: 23px;
+}
+#navlist
+{
+margin-top: 15px;
+}
+
+.myAccount .content 
+{ min-height:450px; background:#000000; } 
+
+div.sportsBetting div.nav ul li:nth-child(even) {
+  background-color: #EEEEEE;
+}
+
+div.sportsBetting div.nav ul.makeLink li a.linkItem{
+    background: url("../img/gray_arrow.png") no-repeat scroll 1px 0px;
+}
+
+div.sportsBetting div.nav ul li{
+    background: url("../img/gray_arrow.png") no-repeat scroll 1px 0px;
+}
+
+div.sportsBetting div.nav .dyn span.collapsed, div.nav .dyn a.collapsed {
+    background: url("../img/ico-toggle-btn-sprite2.png") no-repeat scroll 1px -47px;
+	height: 12px;
+}
+
+div.sportsBetting div.nav .dyn span.expanded, div.nav .dyn a.expanded {
+    background: url("../img/ico-toggle-btn-sprite2.png")no-repeat scroll 1px -97px;
+	height: 12px;
+}
+
+div.sportsBetting div.nav li li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin-top: 0px;
+}
+
+div.sportsBetting ul.makeLink li span.expCollPos {
+    background-color: transparent;
+}
+
+div.sportsBetting div.nav .dyn li li a {
+    background-color: #FFFFFF;
+    font-weight: normal;
+}
+
+div.sportsBetting div.nav .dyn a {
+    background: none no-repeat scroll left top transparent;
+    color: black;
+    font-weight: bold;
+}
+
+div.sportsBetting div.nav ul.dyn li a {
+    height: auto;
+	padding-left: 20px;
+}
+
+div.sportsBetting div.nav ul.makeLink li a.linkItem {
+    display: inline-block;
+    padding-bottom: 0.23em;
+    padding-top: 0.275em;
+    width: 73%;
+	padding-left: 16px;
+}
+
+div.sportsBetting div.nav .dyn a {
+    /*background: none no-repeat scroll left top gray;*/
+    color: black;
+    font-weight: bold;
+}
+
+div.sportsBetting div.nav ul li {
+    list-style: none outside none;
+    margin: 0;
+    padding-bottom: 0px;
+    padding-right: 0;
+}
+
+#articleListTitle 
+{margin-left:15px;} 
+
+#imagePreview 
+{position: absolute;} 
+
+#imagePreview img 
+{height: 120px; width: 120px;} 
+
+
+#LineSportsBetting a:link, 
+#LineSportsBetting a:visited, 
+#LineSportsBetting a:hover {color: #520;background: transparent;font-weight: bold;}
+#LineSportsBetting h1,h2 { 
+font-size: 136%;
+margin: .5em 0 .5em 0;
+}
+
+#LineSportsBetting li p {
+margin-bottom: 3em;
+text-align: justify;
+}
+
+#login-ct {
+    position: absolute !important;
+    top: 0px;
+    right: 8px;
+    display: block !important;
+}
+
+#login-ct .button {
+    margin: 0;
+    height: 32px;
+    min-width: 100px;
+    border-width: 0;
+    border-radius: 3px;
+    font-weight: 700;
+    padding: 0.25em 0.5em 0.4em;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 26px;
+    left: 0;
+}
+
+#login-ct .button-login {
+    background: #4B4B4B;
+}
+
+#login-ct .button-join{
+    background: #21ae00;
+}
